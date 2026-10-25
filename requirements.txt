@@ -1,0 +1,14 @@
+jupyter
+pandas
+numpy
+requests
+matplotlib
+seaborn
+scipy
+statsmodels
+scikit-learn
+geopandas
+shapely
+pyproj
+folium
+openpyxl
