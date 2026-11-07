@@ -1,6 +1,6 @@
 # Dichte veganer Restaurants in Schweizer Gemeinden
 
-<img src="docs/titelbild.png" alt="Karte der Schweiz mit veganen Restaurants und Ausschnitt einer Gemeinde" width="100%">
+<img src="docs/titelbild.png" alt="Karte der Schweiz mit veganen Restaurants und Ausschnitt einer Gemeinde" width="80%">
 
 Projekt im Modul **Data Analytics** (Bachelor Wirtschaftsinformatik, ZHAW).
 
