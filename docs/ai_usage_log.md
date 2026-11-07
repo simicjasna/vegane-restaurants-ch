@@ -1,7 +1,7 @@
-# Protokoll zur KI-Nutzung
+# AI Usage Log
 
-Laufend ergänzen (Pflicht für Präsentation und Video): Welches Tool, wofür, was hat gut funktioniert, was nicht.
+Keep this up to date (required for the presentation and the video): which tool, for what, what worked well, what did not.
 
-| Datum | Person | Tool | Aufgabe | Was hat funktioniert | Was hat nicht funktioniert |
+| Date | Person | Tool | Task | What worked | What did not work |
 |---|---|---|---|---|---|
-| 2026-10-25 | | Claude | Projektidee bewertet, Notebook für Overpass-Abfrage entworfen | | Overpass-Notebook musste im Codespace getestet werden |
+| 2026-10-25 | | Claude | Evaluated project ideas, drafted notebook for the Overpass query | | The Overpass notebook had to be tested in the Codespace |
