@@ -87,39 +87,61 @@ Wir arbeiten als Team zu dritt nach einem iterativen Vorgehensmodell, das die ge
 
 ### Branches
 
-Für jede **Kategorie** gibt es einen eigenen Branch, benannt nach der Kategorie (Kleinbuchstaben, ohne Umlaute).
+Jeder Branch beginnt mit der **Kategorie** (erstes Wort, Kleinbuchstaben, ohne Umlaute). Danach folgt mit Bindestrichen eine kurze **Erweiterung**, die beschreibt, woran in diesem Branch gearbeitet wird: `kategorie-thema`.
 
-| Kategorie | Branch |
-| :----- | :----- |
-| README und Dokumentation | `readme` |
-| Präsentation | `presentation` |
-| Datenerhebung | `datenerhebung` |
-| Datenbank | `datenbank` |
-| Explorative Datenanalyse | `eda` |
-| Modellierung | `modellierung` |
-| Zusatzanalysen | `zusatzanalysen` |
-| Geodaten | `geodaten` |
+| Kategorie (erstes Wort) | Bereich | Beispiele |
+| :----- | :----- | :----- |
+| `readme` | README und Dokumentation | `readme-checkliste`, `readme-branch-konvention` |
+| `presentation` | Präsentation und Video | `presentation-konzeptfolien` |
+| `datenerhebung` | Datenerhebung (API, Scraping) | `datenerhebung-overpass`, `datenerhebung-einkommen` |
+| `geodaten` | Geodaten und räumliche Zuordnung | `geodaten-raeumlicher-join` |
+| `datenbank` | Datenbank (SQLite, PostgreSQL) | `datenbank-sqlite`, `datenbank-postgresql` |
+| `eda` | Explorative Datenanalyse | `eda-verteilungen`, `eda-korrelationen` |
+| `modellierung` | Modellierung und Evaluation | `modellierung-regression`, `modellierung-poisson` |
+| `zusatzanalysen` | Zusatzanalysen (Bonus) | `zusatzanalysen-kmeans`, `zusatzanalysen-anova` |
 
+**Regeln**
 
+- Das erste Wort ist immer die Kategorie, die Erweiterung beschreibt den Inhalt (`kategorie-thema`).
+- Kleinbuchstaben, Wörter mit Bindestrich trennen, keine Umlaute, möglichst 1 bis 3 Wörter für die Erweiterung.
+- Ein Branch gehört zu genau einer Kategorie und einem klar abgegrenzten Thema.
+- Durch das iterative Vorgehen wird eine Kategorie mehrfach bearbeitet. Für jede neue Runde entsteht deshalb ein neuer Branch mit anderer Erweiterung (z. B. `eda-verteilungen`, später `eda-nach-modellierung`).
+- Nach dem Merge wird der Branch gelöscht.
 
 > [!TIP]
-> Ein Branch gehört immer zu genau einer Kategorie. So ist in der Historie klar, welche Änderung zu welchem Bereich gehört.
+> Am Präfix sieht man in der Historie sofort, zu welchem Bereich eine Änderung gehört. Die Erweiterung zeigt, worum es genau ging. So bleiben Branches auch bei mehreren Iterationen eindeutig.
 
 ### Commits
 
-Eine Commit Message beschreibt, was geändert wurde. Es gibt zwei Varianten, je nach Umfang der Änderungen:
+Eine Commit Message hat das Format `typ(bereich): was gemacht wurde`.
 
-1. **Mehrere zusammengehörende Änderungen:** Titel der zusammengefassten Arbeiten, Doppelpunkt, dann die Details.
-2. **Nur sehr wenige Änderungen:** Die einzelnen Änderungen direkt aufführen, mit Komma getrennt, ohne Titel und ohne Doppelpunkt.
+- **typ**: Art der Änderung (siehe Tabelle).
+- **bereich**: Kategorie aus der Branch Konvention (`readme`, `presentation`, `datenerhebung`, `geodaten`, `datenbank`, `eda`, `modellierung`, `zusatzanalysen`). Sie entspricht dem ersten Wort des Branches.
+- **Beschreibung**: Deutsch, kurz und konkret, sagt was gemacht wurde (Vergangenheit), ohne Punkt am Ende.
+
+| Typ | Verwendung |
+| :----- | :----- |
+| `neu` | Neue Funktion, neuer Analyseschritt, neues Notebook |
+| `daten` | Daten hinzugefügt oder aktualisiert |
+| `dok` | Dokumentation (README, Checkliste, Kommentare) |
+| `fix` | Fehler behoben |
+| `optim` | Verbessert, aufgeräumt oder umstrukturiert, ohne neue Funktion |
 
 Beispiele:
 
 ```
-Datenerhebung aufgebaut: Overpass Abfrage erstellt, Rohdaten als CSV gespeichert, Koordinaten bereinigt
+neu(datenerhebung): Overpass Abfrage für vegane Restaurants erstellt
+daten(geodaten): Gemeindegrenzen swissBOUNDARIES3D und BFS Verzeichnis ergänzt
+neu(geodaten): Räumliche Zuordnung der Restaurants zu Gemeinden umgesetzt
+neu(datenbank): SQLite Datenbank mit Tabellen restaurants und municipalities angelegt
+dok(readme): Branch und Commit Konvention angepasst
+fix(eda): Fehlende Werte bei Einwohnerzahl korrigiert
 ```
 
+Bei mehreren zusammengehörenden Änderungen werden die Details nach einem Doppelpunkt aufgezählt:
+
 ```
-Titelbild eingefügt, Tippfehler im Inhaltsverzeichnis korrigiert
+neu(datenerhebung): Overpass Abfrage erstellt, Rohdaten als JSON gespeichert, Retry über zwei Endpunkte ergänzt
 ```
 
 # Minimalanforderungen
