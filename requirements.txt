@@ -12,3 +12,4 @@ shapely
 pyproj
 folium
 openpyxl
+pyogrio
