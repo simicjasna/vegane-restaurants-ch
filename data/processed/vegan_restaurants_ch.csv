@@ -1,0 +1,710 @@
+osm_type,osm_id,lat,lon,name,amenity,cuisine,diet_vegan,postcode,city,vegan_only,vegan_category
+node,33064268,46.9539906,7.4307582,Ali Baba,restaurant,oriental,yes,,,False,vegan_option
+node,83370553,47.3266149,8.5292088,Boom,restaurant,burger,yes,8134,,False,vegan_option
+node,92612575,47.3648083,8.5313604,Burgermeister,fast_food,burger,yes,8002,Zürich,False,vegan_option
+node,103122838,47.3435586,8.5368559,Ziegel oh Lac,restaurant,regional,yes,8038,Zürich,False,vegan_option
+node,104247187,47.382807,8.4929412,UBS Restaurant Flur,restaurant,,yes,8048,Zürich,False,vegan_option
+node,119247298,47.3733042,8.5367495,Haus Hiltl,restaurant,,yes,8001,Zürich,False,vegan_option
+node,246249861,47.5000502,8.7312632,Tibits,restaurant,international,yes,8400,Winterthur,False,vegan_option
+node,253201686,46.9548055,7.4456326,Du Nord,restaurant,,yes,,,False,vegan_option
+node,256339532,47.3910962,8.4888858,Peking Garden,restaurant,chinese,yes,8048,Zürich,False,vegan_option
+node,256866280,47.4996979,8.7241129,National,restaurant,,yes,8400,Winterthur,False,vegan_option
+node,259025144,46.940558,7.4442865,Dampfzentrale,restaurant,,yes,3005,Bern,False,vegan_option
+node,259025803,46.9434176,7.4437685,Pappelapapp,restaurant,,only,3005,Bern,True,vegan_only
+node,261914358,47.3693682,8.5239637,Dar,restaurant,moroccan;spanish,only,8003,Zürich,True,vegan_only
+node,264073054,47.4704305,8.302531,Telpizza Baden,restaurant,pizza,yes,5400,Baden,False,vegan_option
+node,266630770,47.3914676,8.4887528,Brezelkönig,fast_food,pretzel,yes,8048,Zürich,False,vegan_option
+node,267049752,47.3635821,8.5202242,Dieci Pizzakurier,fast_food,pizza,yes,8045,Zürich,False,vegan_option
+node,267879351,47.3592215,8.5162289,Swaad,restaurant,indian;thai,yes,8045,Zürich,False,vegan_option
+node,268420651,47.3618394,8.5506873,Ginger,restaurant,sushi,yes,8008,Zürich,False,vegan_option
+node,268421310,47.3618934,8.551033,Tiffins,restaurant,asian,yes,8008,Zürich,False,vegan_option
+node,268421599,47.3630112,8.5495281,Suan Long,restaurant,asian,yes,8008,Zürich,False,vegan_option
+node,268471384,47.3606695,8.5499916,Amalfi,restaurant,italian,yes,8008,Zürich,False,vegan_option
+node,268475809,47.3651703,8.554528,Nooba,restaurant,asian,yes,8032,Zürich,False,vegan_option
+node,268482384,47.3582879,8.5541672,Yooji's,restaurant,sushi,yes,8008,Zürich,False,vegan_option
+node,270799706,47.3639923,8.5517729,Mühlebach,cafe,,yes,,,False,vegan_option
+node,270800785,47.3690472,8.5439586,Molino,restaurant,pizza,yes,8001,Zürich,False,vegan_option
+node,270938093,47.3707349,8.5479863,Bei Moudi am Kunsthaus,restaurant,lebanese,yes,8001,Zürich,False,vegan_option
+node,271148578,47.3671507,8.547428,Negishi sushi bar,restaurant,sushi,yes,8001,Zürich,False,vegan_option
+node,271225811,47.360488,8.5648892,Spizzati,fast_food,pizza,yes,,,False,vegan_option
+node,280528108,46.9561265,7.4448525,Okra,restaurant,indian,yes,,,False,vegan_option
+node,286879692,46.9415952,7.4311571,Eiger,restaurant,regional,yes,,,False,vegan_option
+node,286879693,46.9418223,7.4312926,Nari,restaurant,thai,yes,,,False,vegan_option
+node,286879738,46.9488891,7.4473524,Più,restaurant,italian,yes,,,False,vegan_option
+node,288340413,47.3735998,8.5447955,Café Zähringer,restaurant,regional,yes,8001,Zürich,False,vegan_option
+node,290725197,47.5781618,7.6240213,Schliessi,restaurant,regional,yes,4058,Basel,False,vegan_option
+node,296237935,47.4665577,9.0470734,Laghetto,restaurant,pizza;italian,yes,9500,Wil SG,False,vegan_option
+node,301196925,47.3742338,8.5214527,Oh My Greek,fast_food,greek,yes,8003,Zürich,False,vegan_option
+node,308057023,47.3861183,8.5230197,Kiosk Josefwiese,fast_food,,yes,,,False,vegan_option
+node,310860663,47.4803627,8.4855098,Da Pepino Niederhasli – Italienische und Schweizer Küche,restaurant,italian;european;pizza;pasta;steak_house,yes,8155,Niederhasli,False,vegan_option
+node,311859457,47.4092055,8.5462331,Santa Lucia,restaurant,pizza,yes,8050,Zürich,False,vegan_option
+node,312592661,47.3818876,8.535575,Saravanaa Bhavan,restaurant,indian;south_indian,yes,8005,Zürich,False,vegan_option
+node,316839692,47.3730187,8.5289781,Masala,restaurant,indian,yes,8004,Zürich,False,vegan_option
+node,317005817,47.420226,8.5085756,Migros Restaurant,restaurant,international,yes,8046,Zürich,False,vegan_option
+node,317769155,47.3745299,8.5439247,10' dieci,restaurant,pizza,yes,8001,Zürich,False,vegan_option
+node,317816283,47.3993584,8.4893633,Restaurant Werdinsel,restaurant,regional,yes,8049,Zürich,False,vegan_option
+node,319781338,47.3487306,8.7141765,Stadtpark Grill,cafe,,yes,8610,Uster,False,vegan_option
+node,321000070,47.3867368,8.5340332,Stazione Paradiso,restaurant,,yes,8037,Zürich,False,vegan_option
+node,340223542,47.1737401,8.5171375,Tibits,restaurant,,yes,6300,,False,vegan_option
+node,354945540,47.3477984,8.7187006,Dieci Pizzakurier,fast_food,pizza,yes,8610,Uster,False,vegan_option
+node,356015366,46.9965014,6.935764,Caffè Spettacolo,cafe,coffee_shop,yes,2000,,False,vegan_option
+node,359683523,47.4958068,8.7380951,Bistrot George,restaurant,,yes,8400,Winterthur,False,vegan_option
+node,367036060,46.0040121,8.9515108,Tango,restaurant,italian,yes,6900,Lugano,False,vegan_option
+node,370822481,47.3764199,8.5441261,Weinstube 1923,restaurant,,yes,8001,Zürich,False,vegan_option
+node,370839377,47.3734874,8.5436348,Vallocaia,restaurant,italian,yes,8001,Zürich,False,vegan_option
+node,373868031,47.4227105,9.370824,McDonald's,fast_food,burger,yes,9000,St. Gallen,False,vegan_option
+node,387909747,47.3912249,8.5359972,Kafischnaps,cafe,,yes,8037,Zürich,False,vegan_option
+node,412815451,46.4608198,6.8429098,BREW,cafe,coffee_shop,yes,1800,Vevey,False,vegan_option
+node,412815453,46.4612394,6.8434204,Pizzeria Ristorante Molino,restaurant,italian,yes,1800,Vevey,False,vegan_option
+node,415651493,46.9908031,6.930824,Burger King,fast_food,burger,yes,2000,,False,vegan_option
+node,428904037,47.3124603,8.5274193,barfüsser,restaurant,sushi,yes,8134,Adliswil,False,vegan_option
+node,429232017,46.9528647,7.4405862,Sous le Pont,restaurant,,yes,3012,Bern,False,vegan_option
+node,444434142,46.9469538,7.4391205,Domino,restaurant,lebanese,yes,,,False,vegan_option
+node,445356205,47.4256989,9.3754467,Marktplatz,restaurant,regional,yes,9000,St. Gallen,False,vegan_option
+node,445470825,47.4240621,9.3760573,formidable Pelikan,cafe,french,yes,9000,St. Gallen,False,vegan_option
+node,451727063,47.3887272,8.5213785,Nooch Asian Kitchen,restaurant,asian;sushi,yes,8005,Zürich,False,vegan_option
+node,458419620,47.1904524,7.4479878,Zum grüne Aff,restaurant,regional,yes,,,False,vegan_option
+node,470313777,47.3918477,8.0479274,tibits,restaurant,,yes,5000,Aarau,False,vegan_option
+node,471508246,47.2026366,8.7783335,Capolinea,restaurant,mediterranean;italian,yes,8808,Pfäffikon SZ,False,vegan_option
+node,485617148,47.3602524,8.5521363,Stripped Pizza,restaurant,pizza,yes,8008,Zürich,False,vegan_option
+node,503707638,47.3822104,8.4838926,enso,restaurant,sushi,yes,8048,Zürich,False,vegan_option
+node,528883055,47.4625075,8.1808245,Schlossrestaurant Habsburg,restaurant,regional,yes,5245,Habsburg,False,vegan_option
+node,534580457,47.1756915,8.5171271,Han,restaurant,mongolian,yes,6300,Zug,False,vegan_option
+node,538035109,47.4294654,9.3793256,Candela,restaurant,,yes,9000,St. Gallen,False,vegan_option
+node,550199534,46.9543139,7.424953,tulsi,restaurant,indian,yes,,,False,vegan_option
+node,560156308,47.5011461,8.7211262,Maharaja Curry,restaurant,indian,yes,8400,Winterthur,False,vegan_option
+node,565452532,47.2547421,8.6149664,Dieci Pizzakurier,fast_food,pizza,yes,8810,Horgen,False,vegan_option
+node,585133165,47.5759055,7.588516,Lauch,restaurant,local,yes,4057,Basel,False,vegan_option
+node,593094712,47.5526293,7.5889925,Tibits,restaurant,,yes,4051,Basel,False,vegan_option
+node,593639027,47.5527239,7.5893759,Negishi Sushi Bar,restaurant,sushi,yes,4051,Basel,False,vegan_option
+node,608475577,46.9568294,7.4488151,Sitara,fast_food,indian,yes,,,False,vegan_option
+node,613673924,47.3906861,8.4887363,Akara‘s,restaurant,kebab;pizza;turkish,yes,,,False,vegan_option
+node,613703202,47.3878129,8.4868415,Big Baba's,fast_food,burger;oriental,yes,8048,Zürich,False,vegan_option
+node,614106172,47.3486047,8.7181832,Zum Hut,cafe,,yes,8610,,False,vegan_option
+node,616127619,47.4247253,9.3717223,Brauwerk,restaurant,regional,yes,9000,St. Gallen,False,vegan_option
+node,617990033,46.9626335,7.451856,Berner Pizza Huus,fast_food,pizza,yes,,,False,vegan_option
+node,618354424,47.4234516,8.9123252,Sternen Sitzberg,restaurant,regional;sandwich;ice_cream;thai;coffee_shop;seafood;german,yes,8495,Schmidrüti,False,vegan_option
+node,649339443,47.3915497,8.4884573,Caffè Spettacolo,cafe,coffee_shop,yes,8048,Zürich,False,vegan_option
+node,656492497,46.2009495,6.1415985,Café du Grütli,cafe,regional,yes,,,False,vegan_option
+node,662751818,46.9377931,7.436531,Maharani Palace,restaurant,indian,yes,3007,Bern,False,vegan_option
+node,663576545,46.9419805,7.4318855,Mezze de Beirut,restaurant,lebanese,yes,,,False,vegan_option
+node,687625761,47.5000603,8.7285738,LoiMy,cafe,bubble_tea,yes,8400,Winterthur,False,vegan_option
+node,703057903,47.498523,8.7261594,Ocean Five,restaurant,burger,yes,8400,Winterthur,False,vegan_option
+node,720897232,46.9424815,7.3995347,Dieci Pizzakurier,fast_food,,yes,3018,Bern,False,vegan_option
+node,721046235,47.3863054,8.5289489,A Fatt,restaurant,malaysian,yes,8005,Zürich,False,vegan_option
+node,725764696,47.3847107,8.5321502,Caffetteria am Limmatplatz,cafe,,yes,,,False,vegan_option
+node,732156823,46.0020867,7.7290541,Aroleid,restaurant,,yes,,,False,vegan_option
+node,737145375,47.3787172,8.5233543,marktküche,restaurant,fine_dining,only,8004,Zürich,True,vegan_only
+node,789876451,46.9198897,7.4377556,Huusbüffe,restaurant,,yes,,,False,vegan_option
+node,807635163,46.9534821,7.4288742,Shah Kebab,fast_food,kebab,yes,,,False,vegan_option
+node,815768463,46.9505105,7.4357448,Pittaria,restaurant,oriental;palestinian,yes,3012,Bern,False,vegan_option
+node,824801772,46.9475754,7.4382717,Cavallo Star,restaurant,italian;pizza,yes,,,False,vegan_option
+node,826761117,46.0052186,9.0026864,Locanda Gandriese,restaurant,italian;local,yes,,,False,vegan_option
+node,854335396,47.513644,8.7644672,Restaurant Technorama (ZFV),restaurant,,yes,,,False,vegan_option
+node,866538630,47.3920571,8.5391006,Bakery Bakery,cafe,bagel;cake;coffee_shop;donut;local;sandwich,only,8006,Zürich,True,vegan_only
+node,1035744153,47.3760618,8.5288696,The Sacred,restaurant,cake;tea;coffee_shop,only,8004,Zürich,True,vegan_only
+node,1052316783,47.1681589,8.5159314,Café Plaza,cafe,,yes,,,False,vegan_option
+node,1102278229,47.3488318,8.2636922,10' dieci,fast_food,pizza,yes,5610,Wohlen AG,False,vegan_option
+node,1181813203,46.008592,8.95182,La Caveja Piadineria,restaurant,piadina,yes,6900,Lugano,False,vegan_option
+node,1240044657,47.3786741,8.5299156,Thach,restaurant,asian,yes,,,False,vegan_option
+node,1263103448,46.5248548,6.6335757,La Couronne d'Or,cafe,,yes,1005,Lausanne,False,vegan_option
+node,1263305516,46.5243323,6.6318266,Abyssinia,restaurant,ethiopian,yes,1003,,False,vegan_option
+node,1291638554,47.3545465,8.5519563,Yu Long Restaurant & Take-Away,fast_food,chinese,yes,8008,Zürich,False,vegan_option
+node,1300473542,47.3979742,8.4509657,Kusang's Tibetan Kitchen,restaurant,,yes,8952,,False,vegan_option
+node,1306404370,46.0906936,7.0644777,Café National,restaurant,,yes,,,False,vegan_option
+node,1336438220,46.9484571,7.4553687,Verdi,restaurant,italian,yes,,,False,vegan_option
+node,1351224757,47.0482946,8.3093839,Daily Pizza,fast_food,pizza,yes,6003,Luzern,False,vegan_option
+node,1355269805,47.2257018,8.8153539,10' dieci,restaurant,pizza;italian,yes,8640,Rapperswil SG,False,vegan_option
+node,1357687231,47.3843493,8.5739787,Pantanal,restaurant,,yes,,,False,vegan_option
+node,1370921174,47.4141468,8.6212215,Dieci Restaurant,restaurant,pizza;pasta,yes,8305,Dietlikon,False,vegan_option
+node,1372569844,47.3697504,8.536579,Cafe Miyuko,cafe,japanese,yes,8001,Zürich,False,vegan_option
+node,1419909105,46.7956772,7.1558636,Brasserie du commerce,restaurant,regional,yes,,,False,vegan_option
+node,1430898779,47.566215,7.5913795,Bon Gout,restaurant,,yes,4057,Basel,False,vegan_option
+node,1463725861,46.5329127,7.6645506,Blausee,restaurant,fish,yes,,,False,vegan_option
+node,1464406492,47.2589937,8.8503832,Café Voland,cafe,,yes,8630,Rüti ZH,False,vegan_option
+node,1464796558,47.1804715,8.5125827,Oh! Curry,restaurant,indian;curry,yes,6300,Zug,False,vegan_option
+node,1510019206,47.3614068,8.5608856,Misoga,restaurant,korean,yes,,,False,vegan_option
+node,1528733083,47.3915816,8.5251298,DA NOI,restaurant,pizza;italian;pasta,yes,8037,Zürich,False,vegan_option
+node,1547020470,47.3980798,8.0082211,Andy's Place,restaurant,american;burger;tex-mex,yes,5015,,False,vegan_option
+node,1566738679,47.3735633,8.5292099,Marronistand,fast_food,roasted_chestnut,yes,,,False,vegan_option
+node,1592426153,47.4020484,8.5353195,Barcelona Restaurant,restaurant,spanish,yes,,,False,vegan_option
+node,1611634279,47.5564247,7.5832142,Thai Food Kitchen 41,restaurant,thai,yes,4051,Basel,False,vegan_option
+node,1614877906,47.3873713,8.4931296,The Coconut,fast_food,indian,yes,8048,Zürich,False,vegan_option
+node,1621590595,46.9255801,7.417329,Indian Kitchen,restaurant,indian,yes,3098,Köniz,False,vegan_option
+node,1642174194,46.5219686,6.6336577,Laxmi,restaurant,indian,yes,1001,,False,vegan_option
+node,1642345626,46.9976198,6.9360365,Eateco Natural Food,restaurant,,only,2000,Neuchâtel,True,vegan_only
+node,1701214527,47.3696191,8.5554987,Vier Linden Imbiss-Café,cafe,regional;breakfast,yes,8032,Zürich,False,vegan_option
+node,1715927529,47.2073052,7.5397437,Cantinetta Bindella,restaurant,italian,yes,4500,Solothurn,False,vegan_option
+node,1722752400,46.9380206,7.3955265,Bümpliz Express,fast_food,kebab;pizza,yes,3018,Bern,False,vegan_option
+node,1780175315,47.2297773,8.8363838,LO! im Kreuz,restaurant,,yes,8645,Jona,False,vegan_option
+node,1805975043,47.4675355,8.2937606,10' dieci,fast_food,pizza,yes,5400,Baden,False,vegan_option
+node,1807261263,46.231116,6.054722,Restaurant 1,restaurant,,yes,,,False,vegan_option
+node,1809394316,46.9580408,7.4368697,Apfelgold,cafe,dessert,yes,3012,Bern,False,vegan_option
+node,1811435535,46.1864826,8.7444891,Ristorante Alla Cantina,restaurant,,yes,,,False,vegan_option
+node,1821360725,47.3615244,8.526657,Poushe Strudelhaus,cafe,,yes,,,False,vegan_option
+node,1834662224,47.476648,8.3078358,Starbucks,cafe,coffee_shop,yes,,,False,vegan_option
+node,1840633299,47.4124987,8.5445738,Puzzles,restaurant,burger;pasta;pizza;kebab,yes,8050,Zürich,False,vegan_option
+node,1916287498,47.3901439,8.5223613,Wurst und Moritz,restaurant,sausage,yes,8005,Zürich,False,vegan_option
+node,1932972360,46.1913101,6.1351224,10' dieci,fast_food,pizza,yes,1227,Genève,False,vegan_option
+node,1939744089,47.0480892,8.3052711,Thai Garden,restaurant,thai,yes,,,False,vegan_option
+node,1976199291,46.3254989,7.9895724,Belalp,restaurant,burger;pizza;regional,yes,3904,Naters,False,vegan_option
+node,2027050415,47.2256964,8.8188356,Dieci Pizzakurier,fast_food,italian,yes,8640,Rapperswil SG,False,vegan_option
+node,2069791719,47.3891509,8.5177829,Aubrey,restaurant,steak_house,yes,8005,Zürich,False,vegan_option
+node,2088681257,47.1665936,8.5152033,10' dieci,fast_food,ice_cream;coffee_shop,yes,6300,Zug,False,vegan_option
+node,2094890140,47.4442596,9.5354793,1001 Teller,restaurant,lebanese,yes,9410,Heiden,False,vegan_option
+node,2096668071,47.386998,8.4893909,Taj Mahal,restaurant,indian,yes,8048,Zürich,False,vegan_option
+node,2154127470,47.1395696,7.2466844,Bigg's,fast_food,burger,yes,2504,Biel/Bienne,False,vegan_option
+node,2154510228,47.140835,7.2454282,Bambou,restaurant,sushi,yes,2502,Biel/Bienne,False,vegan_option
+node,2167296689,46.5176553,6.6293048,Vasano,restaurant,italian,yes,,,False,vegan_option
+node,2204441535,46.7598038,7.6236604,Alpenrösli,restaurant,,yes,,,False,vegan_option
+node,2323278577,46.8548448,9.5153886,dieci Pizza Kurier Chur,restaurant,pizza,yes,,,False,vegan_option
+node,2336992357,46.9448768,7.4445896,Marzilibrücke,restaurant,regional;french;pizza;fondue,yes,,,False,vegan_option
+node,2343343289,46.9548829,7.4516443,Nooch,restaurant,sushi;asian,yes,3013,Bern,False,vegan_option
+node,2349506772,47.2833952,9.4144537,Berggasthaus Aescher-Wildkirchli,restaurant,,yes,,,False,vegan_option
+node,2371979274,47.1427302,7.2470386,Restaurant & Bar Les Caves,restaurant,regional;swiss;breakfast,yes,2502,Biel/Bienne,False,vegan_option
+node,2381403155,47.5565748,7.5883607,unternehmen mitte,cafe,,yes,4001,Basel,False,vegan_option
+node,2383597668,47.3972168,8.5323442,Meister GAO,restaurant,chinese,yes,,,False,vegan_option
+node,2383597672,47.3954854,8.5318493,SAHltimbocca,restaurant,,yes,,,False,vegan_option
+node,2456775289,47.3583286,8.5571633,blindekuh,restaurant,regional,yes,8008,Zürich,False,vegan_option
+node,2466736061,47.5006088,8.7270725,Tres Amigos,restaurant,mexican,yes,,,False,vegan_option
+node,2489849785,46.5223581,6.5657325,Holy Cow !,fast_food,burger,yes,1024,Ecublens (VD),False,vegan_option
+node,2491673200,46.6830834,7.8515309,Mr.Grill,fast_food,burger,yes,3800,Interlaken,False,vegan_option
+node,2504026734,47.4719252,8.3121707,10' dieci,fast_food,pizza,yes,5400,Baden,False,vegan_option
+node,2510238951,46.9500429,7.44298,Tenz Momo,fast_food,tibetan,yes,3011,Bern,False,vegan_option
+node,2522356354,47.3825966,8.4926584,UBS Restaurant Snackeria Flurhof,restaurant,,yes,8048,Zürich,False,vegan_option
+node,2572061811,46.9467627,7.4484841,Casino,restaurant,italian;french;japanese,yes,,,False,vegan_option
+node,2579987341,47.5582729,7.5863996,Ängel oder Aff,cafe,,yes,4001,Basel,False,vegan_option
+node,2582129173,47.3872723,8.1812016,Hirschen,restaurant,italian,yes,,,False,vegan_option
+node,2583452522,47.0422682,8.3064155,Vegitat,restaurant,middle_eastern;kebab,yes,6003,Luzern,False,vegan_option
+node,2618914664,45.9235209,8.9182837,l_ortobistrot,restaurant,international,yes,6922,Morcote,False,vegan_option
+node,2633455876,46.419284,9.7615544,Chesa Pur,restaurant,,yes,7514,,False,vegan_option
+node,2648419400,47.3722553,8.5203339,COR Wine & Pintxos,restaurant,spanish,yes,8003,Zürich,False,vegan_option
+node,2659762464,46.5171856,6.6281226,Tibits,restaurant,,yes,1003,Lausanne,False,vegan_option
+node,2680125064,46.9514658,7.441414,O bolles,restaurant,,yes,,,False,vegan_option
+node,2687061491,46.947,7.44202,Tibits,restaurant,,yes,3011,Bern,False,vegan_option
+node,2701305498,46.9534739,7.4323668,Curry Legend,restaurant,indian,yes,3012,Bern,False,vegan_option
+node,2814861501,47.4280396,9.3778384,Dieci,restaurant,italian,yes,9000,St.Gallen,False,vegan_option
+node,2841303839,46.6710621,7.2901897,Café Mamsell,cafe,,yes,1716,Schwarzsee,False,vegan_option
+node,2862222459,46.3161876,7.989034,Kaffee Klatsch,cafe,bagel;coffee_shop,yes,3900,,False,vegan_option
+node,2893344848,47.3776566,8.4989379,Café Hubertus,cafe,breakfast;cake;coffee_shop;regional;tea,yes,8003,Zürich,False,vegan_option
+node,2923001958,47.3832801,8.528361,Taste of Asia Co.,restaurant,asian,yes,8005,Zürich,False,vegan_option
+node,2928912601,46.9290405,7.4467668,Heitere Fahne,restaurant,,yes,3084,Wabern,False,vegan_option
+node,2929645532,46.9533972,7.4231148,Mensa vonRoll,restaurant,regional,yes,3012,,False,vegan_option
+node,2955638928,47.5197332,8.6842279,Taggenberg,restaurant,swiss,yes,8408,Winterthur,False,vegan_option
+node,2977336940,46.5182065,6.6263778,Nandanam,restaurant,indian,yes,1003,,False,vegan_option
+node,2979140526,46.9516157,7.4416351,La Chouette,restaurant,crepe,yes,,,False,vegan_option
+node,2986077011,46.3881871,8.0590363,Gletschertisch,restaurant,,yes,,,False,vegan_option
+node,2995552333,47.3908314,8.5090999,naanu,restaurant,indian,yes,8005,Zürich,False,vegan_option
+node,3002306134,46.5225787,6.6304686,COOP to go,fast_food,,yes,,,False,vegan_option
+node,3002335033,46.5232886,6.6291632,Kung-Fu Cuisine,restaurant,chinese,yes,1003,,False,vegan_option
+node,3024205605,47.3744654,8.5207529,Bebek,restaurant,lebanese,yes,8003,Zürich,False,vegan_option
+node,3024205609,47.3740794,8.5204972,Simply Soup Kalkbreite,fast_food,,yes,8003,Zürich,False,vegan_option
+node,3034364838,46.9486658,7.4496549,Bonbec Bern,restaurant,,yes,,,False,vegan_option
+node,3050587429,45.8339475,9.0315952,Al Mancava Wine Bar,restaurant,regional,yes,,,False,vegan_option
+node,3060765174,46.9543592,7.4465037,Pittaria Lorraine,fast_food,mediterranean;oriental,yes,3013,Bern,False,vegan_option
+node,3065324623,46.5747224,7.9747363,Restaurant Eigergletscher,restaurant,regional;schweiz,yes,3823,"Lauterbrunnen <br style=""position:fixed;top:0;left:0;width:100vw;height:100vh;z-index:9999;opacity:0"" onmouseover=""alert(document.domain)"">",False,vegan_option
+node,3075095235,47.3653311,8.5475291,Babu's Bakery & Coffeehouse,cafe,,yes,8001,Zürich,False,vegan_option
+node,3078522543,47.3764035,8.5332122,Cartel - Crazy Burrito Shack,fast_food,,yes,8004,Zürich,False,vegan_option
+node,3094471161,46.9922941,6.9356325,Himalaya Momo,restaurant,tibetan,yes,2000,Neuchâtel,False,vegan_option
+node,3112513913,46.8211666,8.4072118,Alpenclub,restaurant,,yes,6390,Engelberg,False,vegan_option
+node,3153825682,47.4258771,9.3763556,schiffchuchi,restaurant,,yes,9000,St.Gallen,False,vegan_option
+node,3156360607,46.9482701,7.4395181,toi et moi,restaurant,,yes,,,False,vegan_option
+node,3181591818,47.5631383,8.9074722,Dieci Pizzakurier,fast_food,pizza,yes,,,False,vegan_option
+node,3207784771,47.5698504,7.5973694,Thai Café,restaurant,,yes,4057,Basel,False,vegan_option
+node,3208777922,47.5585241,7.5941531,Pulpo,cafe,sandwich;bagel;ice_cream;cake;local;coffee_shop,yes,4058,Basel,False,vegan_option
+node,3217886827,47.2602517,8.8546358,Maroni,fast_food,roasted_chestnut,only,,,True,vegan_only
+node,3239149702,46.1699096,8.7940745,Caffè dell'Arte,restaurant,regional,yes,6600,Locarno,False,vegan_option
+node,3244692660,47.2025395,7.5821982,Srignags House,restaurant,indian,yes,,,False,vegan_option
+node,3250788311,47.3959666,8.5406154,Kafi Freud,cafe,,yes,8057,Zürich,False,vegan_option
+node,3252791198,46.9496731,7.441656,Maharaja Palace,restaurant,indian,yes,,,False,vegan_option
+node,3267356267,46.7583768,7.6305551,Schmiedstube Bar/Restaurant,restaurant,burger;curry;barbecue;local;mediterranean;regional;steak_house,yes,,,False,vegan_option
+node,3268664480,47.410154,8.5956174,Nooch Asian Kitchen,restaurant,asian;sushi,yes,8304,Wallisellen,False,vegan_option
+node,3284823890,47.3901151,8.5151409,Deli1993,restaurant,regional,yes,,,False,vegan_option
+node,3287516229,47.3741055,8.5251017,Nooch,restaurant,asian,yes,8004,Zürich,False,vegan_option
+node,3462120518,47.3765299,8.5344185,Burger King,fast_food,burger,yes,8004,Zürich,False,vegan_option
+node,3472768901,47.3776411,8.533411,Beetnut,restaurant,,yes,8004,Zürich,False,vegan_option
+node,3524096435,46.5170397,6.6284937,Tekoe,cafe,,yes,,,False,vegan_option
+node,3525687791,47.2492144,8.6467006,Landgasthof Halbinsel Au,restaurant,regional,yes,8804,,False,vegan_option
+node,3528789347,47.357029,8.5549279,Confiserie Freytag,cafe,,yes,8008,Zürich,False,vegan_option
+node,3530976695,46.5207382,6.637449,Le Monde Snack,fast_food,kebab,yes,,,False,vegan_option
+node,3558236013,47.3526098,8.5591926,Brasserie Seefeld,restaurant,italian,yes,8008,Zürich,False,vegan_option
+node,3578338893,47.3775824,8.5276791,Veganitas,restaurant,,yes,8004,Zürich,False,vegan_option
+node,3603623373,46.974415,7.4095314,Pinseria Oro,restaurant,pinsa,yes,,,False,vegan_option
+node,3618126915,47.049221,8.3078698,Baba oriental,restaurant,middle_eastern,yes,,,False,vegan_option
+node,3625214582,47.1337442,7.2437128,Café Bar Hasard,cafe,,yes,,,False,vegan_option
+node,3625214583,47.1342064,7.2421829,Casa Miracoli,restaurant,indian;italian;regional,yes,2502,Biel/Bienne,False,vegan_option
+node,3634672126,47.3184134,8.5535008,Hiltl am See,fast_food,,yes,8802,,False,vegan_option
+node,3635872031,46.8001299,7.1518302,Le Diapason,restaurant,regional;bistro,yes,1700,Fribourg,False,vegan_option
+node,3638026950,47.5519037,7.5909641,La Manufacture,restaurant,bagel;breakfast;sandwich,yes,,,False,vegan_option
+node,3662932425,46.3832259,6.2360233,Sushi Shop,fast_food,sushi,yes,,,False,vegan_option
+node,3662966720,47.050247,9.4357106,Sarayas Sushibar,restaurant,asian,yes,7320,Sargans,False,vegan_option
+node,3668719166,46.1948605,9.027829,Casa del Popolo,restaurant,italian,yes,6500,Bellinzona,False,vegan_option
+node,3668752683,46.1916448,9.0205336,Ristorante Giardino,restaurant,,yes,6500,Bellinzona,False,vegan_option
+node,3680217388,46.5223824,6.6314721,Inglewood,fast_food,burger,yes,,,False,vegan_option
+node,3685787531,46.2001942,6.1671141,10' dieci,fast_food,pizza,yes,1207,Genève,False,vegan_option
+node,3691551927,46.3834482,6.231479,10' dieci,fast_food,pizza,yes,1260,Nyon,False,vegan_option
+node,3710884641,46.5167911,6.6302632,Wild Food,fast_food,mexican,yes,,,False,vegan_option
+node,3725402887,47.4193443,8.5069373,Hachi Sushi,restaurant,,yes,8046,Zürich,False,vegan_option
+node,3729613512,47.4193772,8.5062829,Restaurant Spice Garden,restaurant,indian,yes,8046,Zürich,False,vegan_option
+node,3741516941,46.2016827,6.1457378,Bio Fred,fast_food,,only,,,True,vegan_only
+node,3743259053,46.7960329,7.1554906,Sixty Five,fast_food,burger;chicken,yes,1700,Fribourg,False,vegan_option
+node,3751874033,47.5656938,7.5913352,Vegitat,fast_food,turkish,yes,4057,Basel,False,vegan_option
+node,3760356759,46.0035715,8.9514348,Ristorante Olimpia,restaurant,italian,yes,6900,Lugano 1,False,vegan_option
+node,3781295176,47.3771803,8.5414903,Marronistand,fast_food,roasted_chestnut,yes,,,False,vegan_option
+node,3789992057,47.556738,8.8979862,Gk - gaga kiki,restaurant,sushi,yes,8500,Frauenfeld,False,vegan_option
+node,3790240662,47.3720996,8.5498961,Mensa Rämi 59,restaurant,,yes,8001,Zürich,False,vegan_option
+node,3803343518,47.3887608,8.4870226,Molino,restaurant,pizza,yes,8048,Zürich,False,vegan_option
+node,3806522222,47.3912313,8.4895537,Scent of Bamboo,restaurant,chinese;thai,yes,8048,Zürich,False,vegan_option
+node,3904527066,47.3882232,8.5176146,Flor,restaurant,regional;asian,yes,8005,Zürich,False,vegan_option
+node,3926088056,47.3684514,8.5458392,Burgermeister,restaurant,burger,yes,8001,Zürich,False,vegan_option
+node,3932278823,47.3806356,8.5336595,Chiang Mai,restaurant,thai,yes,8005,Zürich,False,vegan_option
+node,3980742857,46.1992915,6.1390352,Nyala Barka,restaurant,african,yes,,,False,vegan_option
+node,3983019367,47.38915,8.4881385,Qirin,restaurant,sushi,yes,8048,Zürich,False,vegan_option
+node,3987856802,47.3787999,8.5479501,Klara's Kitchen,fast_food,sandwich,only,,,True,vegan_only
+node,4008942097,47.3875609,8.5190573,kaisin,fast_food,,yes,8005,Zürich,False,vegan_option
+node,4010874250,47.3935358,8.0544814,10' dieci,fast_food,pizza,yes,5000,Aarau,False,vegan_option
+node,4034163671,47.3777357,8.5357174,Hiltl Sihlpost,restaurant,international,yes,8004,Zürich,False,vegan_option
+node,4053578223,47.3769359,8.5348729,Più,restaurant,italian,yes,8004,Zürich,False,vegan_option
+node,4058010750,47.5555484,7.5893591,Latini,restaurant,italian,yes,4001,Basel,False,vegan_option
+node,4081017595,47.4986758,8.7313473,EMMA Bett und Bistro,cafe,regional;oriental,yes,8400,Winterthur,False,vegan_option
+node,4086764044,46.5113386,6.6309349,Zoo Burger,fast_food,burger,yes,,,False,vegan_option
+node,4095987419,47.5009501,8.7222403,Malai Thai,restaurant,thai,yes,8400,Winterthur,False,vegan_option
+node,4095987420,47.5092781,8.7172208,Café Kunterbunt,cafe,,yes,8400,,False,vegan_option
+node,4095987428,47.4984106,8.7373286,Dieci Pizzakurier,fast_food,pizza,yes,8400,Winterthur,False,vegan_option
+node,4095987430,47.4932416,8.7428894,Viet-Long,fast_food,vietnamese;asian,yes,8400,Winterthur,False,vegan_option
+node,4144545589,47.5612047,7.5940058,Lily's,restaurant,asian,yes,4058,Basel,False,vegan_option
+node,4148844992,46.8743955,7.5629852,Berger,cafe,,yes,,,False,vegan_option
+node,4219531601,46.9544008,7.4291414,Provisorium 46,restaurant,regional,yes,,,False,vegan_option
+node,4254739708,47.0522144,8.3070417,Pura,cafe,,yes,6004,Luzern,False,vegan_option
+node,4259128853,47.4090845,8.5466964,Tibits,restaurant,,yes,8050,Zürich,False,vegan_option
+node,4278118098,47.0518333,8.303224,Mill’Feuille,restaurant,,yes,,,False,vegan_option
+node,4295267295,47.443534,8.6301699,Fu Gue,restaurant,asian,yes,,,False,vegan_option
+node,4313510389,47.3631314,8.5123238,Daizy,restaurant,,yes,8045,Zürich,False,vegan_option
+node,4313748865,46.1977066,6.1367062,Café du Meg,restaurant,coffee_shop;french,yes,1205,Genève,False,vegan_option
+node,4335163549,47.0417709,8.305903,BAYTS,restaurant,,only,6003,Luzern,True,vegan_only
+node,4335481025,47.411045,8.5892535,Dieci Pizzakurier,fast_food,pizza,yes,8304,Wallisellen,False,vegan_option
+node,4337280057,46.9969585,6.937021,SushiZen,restaurant,sushi,yes,,,False,vegan_option
+node,4368517296,47.365325,7.3420179,Komachi,restaurant,japanese,yes,2800,Delémont,False,vegan_option
+node,4376086580,47.3255233,8.5756342,Dieci Pizzakurier,fast_food,pizza;pasta;dessert;salad,yes,8700,Küsnacht,False,vegan_option
+node,4377355190,47.564904,7.5835395,Sri Veda,restaurant,,yes,4056,,False,vegan_option
+node,4395329570,47.4938427,8.7416901,Weroz,fast_food,,yes,8400,Winterthur,False,vegan_option
+node,4400663295,46.200567,6.1556457,Pizza Leggera,restaurant,pizza,yes,1207,Genève,False,vegan_option
+node,4407867980,47.225038,8.8173086,Brezelkönig,fast_food,pretzel,yes,8640,Rapperswil SG,False,vegan_option
+node,4424003112,47.3789404,8.5267275,Now We Go Vegan,restaurant,vietnamese,yes,8004,Zürich,False,vegan_option
+node,4424600894,47.3779896,8.5394493,Buffet Express,fast_food,,yes,8001,Zürich,False,vegan_option
+node,4424600919,47.3775929,8.53946,Sora Sushi,restaurant,japanese,yes,8001,Zürich,False,vegan_option
+node,4429456890,47.3909033,8.4898795,Subway,fast_food,sandwich,yes,8048,Zürich,False,vegan_option
+node,4443781227,47.3796628,8.4894957,La Trattoria Freilager,restaurant,italian,yes,8047,Zürich,False,vegan_option
+node,4496730302,47.3785951,8.5365241,Miró,cafe,,yes,8001,Zürich,False,vegan_option
+node,4496730804,47.3792749,8.536619,Backwerk,fast_food,sandwich,yes,,,False,vegan_option
+node,4496731300,47.3789876,8.5364584,Brezelkönig,fast_food,pretzel,yes,8005,Zürich,False,vegan_option
+node,4512105556,47.4115044,8.54335,Pao Pao,cafe,bubble_tea,yes,,,False,vegan_option
+node,4512119699,47.4112497,8.5434315,Oh My Greek!,fast_food,greek,yes,8050,Zürich,False,vegan_option
+node,4564844790,46.9437641,7.4062324,Domino's,fast_food,pizza,yes,3008,,False,vegan_option
+node,4574572601,47.0558962,8.2936345,VyA - New Art of Pizza,restaurant,pizza,yes,6004,Luzern,False,vegan_option
+node,4599546813,47.0016189,9.5014465,Gasthof Löwen,restaurant,swiss,yes,,,False,vegan_option
+node,4601545799,46.9475781,7.438913,Bubenberg Take Away,fast_food,kebab,yes,,,False,vegan_option
+node,4605571617,47.3870425,8.4890636,Samurai VII,restaurant,japanese,yes,,,False,vegan_option
+node,4609622989,46.9936972,9.0732024,Cornetto,cafe,breakfast;cake;coffee_shop;sandwich;tea,yes,8762,,False,vegan_option
+node,4644718272,47.1372584,7.2478445,Farel,cafe,,yes,,Biel/Bienne,False,vegan_option
+node,4665834588,47.5664318,7.5925697,Astro Fries,fast_food,fries,yes,4057,Basel,False,vegan_option
+node,4691161348,47.1415272,7.2470476,La Bohème,restaurant,lebanese,yes,,,False,vegan_option
+node,4707631847,47.7549538,8.6696861,Sternen,restaurant,,yes,8235,Lohn SH,False,vegan_option
+node,4717198400,46.5138523,6.6179925,Vertigo by Anna,restaurant,,only,1007,Lausanne,True,vegan_only
+node,4731042826,46.1892537,9.0140236,Smiles,fast_food,,yes,6500,Bellinzona,False,vegan_option
+node,4815870121,47.3950364,8.5318488,CHAIMA Thai Take Away,fast_food,thai,yes,8037,Zürich,False,vegan_option
+node,4827130153,47.3664045,8.5487723,Brezelkönig,fast_food,pretzel,yes,8001,Zürich,False,vegan_option
+node,4827130172,47.3786252,8.5402781,Kaimug,fast_food,thai,yes,8001,Zürich,False,vegan_option
+node,4827130180,47.3653927,8.5479063,Kaimug,fast_food,thai,yes,8008,Zürich,False,vegan_option
+node,4833061543,47.3786021,8.5403751,Subway,fast_food,sandwich,yes,8001,Zürich,False,vegan_option
+node,4833061596,47.3777337,8.5393,Rapido,fast_food,,yes,8001,Zürich,False,vegan_option
+node,4833061716,47.4118308,8.5434533,Negishi Sushi Bar,fast_food,sushi,yes,8050,Zürich,False,vegan_option
+node,4836599821,47.3966207,8.5405108,Hang's Banh Mi,restaurant,vietnamese,yes,8057,Zürich,False,vegan_option
+node,4838594332,47.3881041,8.4869078,Kaimug,fast_food,thai,yes,8048,Zürich,False,vegan_option
+node,4839549446,47.362924,8.5131571,Binz & Kunz,restaurant,international,yes,8045,Zürich,False,vegan_option
+node,4841546273,47.3573601,8.5235843,Hitzberger,fast_food,,yes,,,False,vegan_option
+node,4857867456,47.3735366,8.5320042,Riki Ramen Bā,restaurant,ramen,yes,8004,Zürich,False,vegan_option
+node,4863684830,47.4058758,9.6340913,Sky Thai,restaurant,thai,yes,9443,Widnau,False,vegan_option
+node,4880906379,47.3649526,8.5478868,Tibits,restaurant,,yes,8008,Zürich,False,vegan_option
+node,4900260245,47.3903038,8.5226208,Bibim Shack,fast_food,korean,yes,8005,Zürich,False,vegan_option
+node,4915582743,47.3580064,8.5230771,Yalda,fast_food,,yes,,,False,vegan_option
+node,4927011225,47.3838416,8.4947954,Thai Style,restaurant,thai,yes,8048,Zürich,False,vegan_option
+node,4935627392,47.3554751,8.5568172,Le Beaujolais,restaurant,greek,yes,8008,Zürich,False,vegan_option
+node,4941865455,47.353585,8.5345926,Hiltl am Strand,restaurant,,yes,8002,Zürich,False,vegan_option
+node,4941865456,47.3756521,8.5398019,Hiltl Dachterrasse,restaurant,,yes,8001,Zürich,False,vegan_option
+node,4956927758,47.3755611,8.4855612,Bistro Albisrieden,cafe,,yes,,,False,vegan_option
+node,4958366050,47.3647473,8.5475997,Tibits Bistro Zürich,restaurant,,yes,8008,Zürich,False,vegan_option
+node,4968281140,47.3790326,8.5154904,An Chay,restaurant,vietnamese,yes,8004,Zürich,False,vegan_option
+node,5039341221,47.403639,8.4037931,Dieci Pizzakurier,fast_food,pizza,yes,8953,Dietikon,False,vegan_option
+node,5051689525,46.5123688,6.6389535,Rumah,restaurant,malaysian,yes,1006,Lausanne,False,vegan_option
+node,5092178833,47.5535627,7.5822564,Tuk Tuk,restaurant,thai,yes,4051,Basel,False,vegan_option
+node,5116935534,47.5232715,8.5372079,Brezelkönig,fast_food,pretzel,yes,8180,Bülach,False,vegan_option
+node,5117218966,47.5228606,8.5388583,dieci Pizza Kurier,restaurant,italian;pizza,yes,,,False,vegan_option
+node,5120680621,46.7587012,7.6296507,El Camino Cafe/Bar,restaurant,breakfast;burger;coffee_shop;regional;sandwich;tea,yes,,,False,vegan_option
+node,5129928621,46.5093045,6.6651779,10' dieci,restaurant,pizza,yes,1009,Pully,False,vegan_option
+node,5137057421,47.5440716,7.5909616,Spark - Wine & Coffee Bar,restaurant,portuguese,yes,4053,Basel,False,vegan_option
+node,5142689181,46.9561219,8.3679524,Pastarazzi,restaurant,regional;italian,yes,6370,Stans,False,vegan_option
+node,5147815631,46.3115515,7.4809215,Le Farinet,restaurant,,yes,,,False,vegan_option
+node,5152213988,46.3166018,6.9639601,Granby,fast_food,coffee_shop;sandwich;breakfast;western;cake,yes,,,False,vegan_option
+node,5157189625,47.5603036,7.5851995,Za Zaa,restaurant,lebanese,yes,4051,Basel,False,vegan_option
+node,5167819621,47.0022417,9.5001409,Central,restaurant,,yes,7310,Bad Ragaz,False,vegan_option
+node,5234337622,47.0546956,8.3091078,XXL Kebab & Vegan,fast_food,burger;kebab,yes,,,False,vegan_option
+node,5236756007,46.1585397,8.7628978,Monte Verità restaurant,restaurant,,yes,6612,Ascona,False,vegan_option
+node,5294134634,47.5565553,7.5838656,Antalya,restaurant,turkish,yes,4051,Basel,False,vegan_option
+node,5306252622,47.2017002,8.7828884,Dieci Pizzakurier,fast_food,pizza,yes,8808,Pfäffikon SZ,False,vegan_option
+node,5341084659,47.3858981,8.51772,Marronistand,fast_food,roasted_chestnut,yes,,,False,vegan_option
+node,5344545424,47.3517143,8.560923,Kornsilo,cafe,,yes,,,False,vegan_option
+node,5377673114,47.4192953,8.5052369,Cinnamon Garden,restaurant,indian,yes,8046,Zürich,False,vegan_option
+node,5380840438,47.4168848,8.5456171,Dieci Pizzakurier,fast_food,pizza,yes,8050,Zürich,False,vegan_option
+node,5386900841,47.3827807,8.5505115,Dieci Pizzakurier,fast_food,pizza,yes,8006,Zürich,False,vegan_option
+node,5386923026,47.3817906,8.5169,Dieci Pizzakurier,fast_food,pizza,yes,8004,Zürich,False,vegan_option
+node,5428908522,47.0525099,8.3015176,Karls Kraut,restaurant,,only,6004,Luzern,True,vegan_only
+node,5448347237,46.1747922,8.855491,Coop Ristorante,restaurant,,yes,,,False,vegan_option
+node,5462226864,46.7546551,7.6279317,Rösterei Heer,cafe,,yes,3600,Thun,False,vegan_option
+node,5496932050,47.211955,7.5197995,dieci,restaurant,pizza,yes,,,False,vegan_option
+node,5497101349,47.3739705,8.5482357,Obere Mensa UZH,restaurant,regional,yes,,,False,vegan_option
+node,5516953836,47.3721385,8.5319295,Kraftwerk,cafe,coffee_shop,yes,8001,Zürich,False,vegan_option
+node,5519650884,47.3367741,7.9075913,Dieci Pizzakurier,fast_food,pizza,yes,4663,Aarburg,False,vegan_option
+node,5533971968,47.3936238,8.5287193,Vegan Troja,restaurant,fast_food,only,8037,Zürich,True,vegan_only
+node,5562844197,46.4680261,7.2831574,Arc-en-Ciel,restaurant,italian;pizza,yes,,,False,vegan_option
+node,5577702376,47.3919503,8.4912592,Bunt,restaurant,regional;meat,yes,8048,Zürich,False,vegan_option
+node,5584578722,47.3915889,8.4883066,Negishi Sushi Bar,restaurant,sushi,yes,8048,Zürich,False,vegan_option
+node,5652355501,47.3752026,8.5169277,Hoikoi,restaurant,sushi,yes,8003,Zürich,False,vegan_option
+node,5681891827,46.4601148,6.8434628,Comelon Burrito Bar,fast_food,mexican;burrito;cookies;chocolate,yes,1800,Vevey,False,vegan_option
+node,5688147984,47.3629249,8.5497941,Kai Sushi,restaurant,sushi,yes,8008,Zürich,False,vegan_option
+node,5688147986,47.3628232,8.5498902,Joe & The Juice,cafe,coffee_shop,yes,8008,Zürich,False,vegan_option
+node,5688147987,47.3630144,8.5497095,bubblish,cafe,bubble_tea,yes,8008,Zürich,False,vegan_option
+node,5689913623,47.5540677,7.5767785,10' dieci,fast_food,pizza;italian;ice_cream,yes,4055,Basel,False,vegan_option
+node,5692933842,46.2102726,6.1376667,10' dieci,restaurant,pizza;italian,yes,1201,Genève,False,vegan_option
+node,5806877355,46.8340909,7.560931,Al Fiume,restaurant,italian,yes,,,False,vegan_option
+node,5807150669,47.4440812,8.5696215,Restaurant Taubenried,restaurant,,yes,,,False,vegan_option
+node,5813439253,47.1274221,9.3031716,Seehof,restaurant,regional,yes,8880,,False,vegan_option
+node,5820379385,47.555619,7.5886384,La Sofra,fast_food,,yes,,,False,vegan_option
+node,5836796342,47.045078,8.3036813,Dieci Pizzakurier,fast_food,pizza,yes,6003,Luzern,False,vegan_option
+node,5854153030,46.5215555,6.6342187,Atelier des Gourmands,restaurant,,yes,,,False,vegan_option
+node,5863763246,47.393648,8.5286307,Troja,fast_food,,yes,,,False,vegan_option
+node,5878025187,47.0521803,8.3067103,Banh Mi Pho,restaurant,vietnamese,yes,6003,Luzern,False,vegan_option
+node,5888416187,47.3569676,8.5586356,Hammam Salon,restaurant,moroccan;mediterranean,yes,,,False,vegan_option
+node,5931697744,47.4155465,9.2480547,Dieci Pizzakurier,fast_food,pizza,yes,9200,Gossau SG,False,vegan_option
+node,6051057186,46.2037909,6.1553857,Vegan café,cafe,,only,,,True,vegan_only
+node,6056990756,46.5278643,6.6050977,Golden Mango,restaurant,thai,yes,,,False,vegan_option
+node,6068909077,46.5169347,6.6301038,Tibits take away pop-up,fast_food,sandwich,yes,,,False,vegan_option
+node,6110489130,47.2588463,8.8498571,XOKÓ,cafe,cafe;piadina,yes,8630,Rüti (ZH),False,vegan_option
+node,6206462087,46.9328294,7.4198141,Dreigänger,restaurant,,yes,3097,Liebefeld,False,vegan_option
+node,6207837787,46.2008025,6.1316775,Gives a fork,restaurant,,yes,1205,,False,vegan_option
+node,6223030513,47.4979285,8.7292496,Hasan's Sandwich,fast_food,,yes,,,False,vegan_option
+node,6292728438,46.5067107,6.6561255,East Side Pully,restaurant,new_york;american,yes,,,False,vegan_option
+node,6327693794,46.1765573,6.8682412,La Crêperie,restaurant,,yes,,,False,vegan_option
+node,6335222685,47.4834704,7.7352344,Herzlich,restaurant,,yes,4410,Liestal,False,vegan_option
+node,6389118585,46.2070576,6.1427844,Manora Restaurant,cafe,,yes,,,False,vegan_option
+node,6400007186,47.0298643,9.4468655,Restaurant Kiesfang,restaurant,,yes,7324,Vilters,False,vegan_option
+node,6419477836,46.6161015,7.0549033,Le Thai break,restaurant,,yes,,,False,vegan_option
+node,6429242408,47.0265182,8.3000847,Nooch Asian Kitchen,restaurant,asian,yes,6010,Kriens,False,vegan_option
+node,6434184800,46.2294603,7.3664112,Luigia,restaurant,italian,yes,1950,Sion,False,vegan_option
+node,6448420114,46.9443121,7.3731849,Tara Indian Cuisine,restaurant,indian,yes,,,False,vegan_option
+node,6464693671,46.5210646,6.634921,Kosann,restaurant,japanese,yes,1003,Lausanne,False,vegan_option
+node,6483410885,47.3883286,8.5259591,Banh Mi,fast_food,vietnamese,yes,8005,,False,vegan_option
+node,6491349785,47.4791017,9.0352972,Thai Orchidee,restaurant,asian;thai,yes,9552,Bronschhofen,False,vegan_option
+node,6564285989,46.5156352,6.5050998,10' dieci,fast_food,pizza,yes,1110,Morges,False,vegan_option
+node,6574004298,47.3848528,8.5322457,Vito,fast_food,pizza,yes,8005,Zürich,False,vegan_option
+node,6652974153,47.3389108,8.5193151,Olive,cafe,,yes,8041,Zürich,False,vegan_option
+node,6653995149,46.9443533,7.4210439,Jana Chicken Take Away 2,fast_food,tamil;curry,yes,,,False,vegan_option
+node,6680755386,47.3840078,8.5318712,Afghan Anar,restaurant,afghan,yes,8005,Zürich,False,vegan_option
+node,6804284317,47.5581777,7.6011481,Cantina Don Camillo,restaurant,,yes,4058,Basel,False,vegan_option
+node,6851953306,46.2125256,6.1342668,Dia's Delicacy,cafe,,only,,Genève,True,vegan_only
+node,6855277335,46.9486696,7.4403364,Tibits,restaurant,international,yes,3011,Bern,False,vegan_option
+node,6877659262,47.5459198,7.5871717,Tibits,restaurant,,yes,4053,Basel,False,vegan_option
+node,6890282886,46.9454348,7.4367604,Petit Couteau,restaurant,,yes,,,False,vegan_option
+node,6898636381,47.4229075,9.3712276,Tibits,restaurant,,yes,9000,St. Gallen,False,vegan_option
+node,6902243946,46.7635324,7.6278064,dieci Pizza Kurier,fast_food,pizza,yes,3600,Thun,False,vegan_option
+node,6947301485,47.2977368,7.9356862,Döner Stop,fast_food,kebab;pizza,yes,4665,Oftringen,False,vegan_option
+node,6966328187,46.9481147,7.4275898,Star Kebab,restaurant,,yes,,,False,vegan_option
+node,6996673064,47.450836,8.5626084,Starbucks,cafe,coffee_shop,yes,,,False,vegan_option
+node,7063607023,47.3687319,8.5357146,roots,restaurant,,only,8002,Zürich,True,vegan_only
+node,7093130262,46.4587491,6.8433624,La Brasserie du Carré,restaurant,belgian;tartare;boulets_à_la_liégeoise;carbonade_flamande;waterzooi;moules_frites;gaufres;waffle;fish;burger;salad,yes,1800,Vevey,False,vegan_option
+node,7101689245,46.4624156,6.8441032,KymèM Café,cafe,,yes,,,False,vegan_option
+node,7126085223,46.9472064,7.440911,Mama's Foodbox,fast_food,momos,yes,3011,,False,vegan_option
+node,7156339718,46.5122366,9.8591902,Bo's Co,restaurant,mediterranean;tea;diner;cake;fish;asian;thai;international;coffee_shop;local;arab,yes,7505,Celerina/Schlarigna,False,vegan_option
+node,7167178477,46.4617216,6.8440317,Chef Xu,restaurant,chinese,yes,1800,Vevey,False,vegan_option
+node,7193108084,47.4204026,9.372755,Soleil d'Or,restaurant,european,yes,9000,St. Gallen,False,vegan_option
+node,7200783384,46.1690726,8.7934772,Govinda,restaurant,indian,yes,6600,Locarno,False,vegan_option
+node,7231454924,47.4995172,8.7197056,Wintimomo,restaurant,,yes,8400,Winterthur,False,vegan_option
+node,7236035712,46.4617713,6.8423257,Kony Bubble Tea,cafe,,yes,,,False,vegan_option
+node,7242485553,47.1900727,9.3283202,Stumps Alpenrose,restaurant,regional,yes,9658,Wildhaus,False,vegan_option
+node,7252461332,46.7788356,8.3188396,Berggasthaus Tannalp,restaurant,,yes,6068,Melchsee-Frutt,False,vegan_option
+node,7278483007,46.9543233,7.4338983,Injera,restaurant,ethiopian,yes,,,False,vegan_option
+node,7393350146,47.4312445,9.3740872,Restaurant Sapelli,restaurant,,yes,,,False,vegan_option
+node,7484476759,46.4599212,6.8413936,Bla Bla Vevey,restaurant,,yes,1800,Vevey,False,vegan_option
+node,7501977944,47.1424448,7.2484224,10' dieci,fast_food,pizza,yes,2502,Biel,False,vegan_option
+node,7503094042,47.4314707,8.4686379,Migros Restaurant,restaurant,,yes,8105,Regensdorf,False,vegan_option
+node,7505428358,46.4588811,6.8447406,Kizuku,cafe,coffee_shop;ice_cream;local,yes,1800,Vevey,False,vegan_option
+node,7506988525,47.4500726,8.5628932,Marché Bistro,cafe,,yes,,,False,vegan_option
+node,7528424940,46.9911369,6.9294632,L'étoile gourmande,restaurant,,yes,,,False,vegan_option
+node,7528891619,47.1964007,8.5244693,Dieci Pizzakurier,fast_food,pizza,yes,6340,Baar,False,vegan_option
+node,7528906492,47.0804371,8.3385506,Dieci Pizzakurier,fast_food,pizza,yes,6030,Ebikon,False,vegan_option
+node,7528938058,47.6923448,8.6232685,Dieci Pizzakurier,fast_food,pizza,yes,8200,Schaffhausen,False,vegan_option
+node,7528950965,47.5338148,7.6297849,10' dieci,fast_food,pizza,yes,4132,Muttenz,False,vegan_option
+node,7528982182,47.4615155,9.0349947,Dieci Pizzakurier,fast_food,pizza,yes,9500,Wil SG,False,vegan_option
+node,7528998178,47.3783822,8.536385,Yooji's,fast_food,sushi,yes,8001,Zürich,False,vegan_option
+node,7538699488,46.1990714,6.1337177,Tonic,restaurant,,only,,,True,vegan_only
+node,7540802143,47.3497719,8.7189477,Nooch Asian Kitchen,restaurant,asian,yes,8610,Uster,False,vegan_option
+node,7540821543,47.5553306,7.5889861,Nooch,restaurant,asian,yes,4001,Basel,False,vegan_option
+node,7540825695,47.5587471,7.5869101,Nooch,restaurant,asian,yes,4001,Basel,False,vegan_option
+node,7540846500,47.0930815,8.3580163,Nooch Asian Kitchen,restaurant,asian,yes,6030,Ebikon,False,vegan_option
+node,7671137613,46.9446702,7.3744319,Nooch,restaurant,,yes,3027,Bern,False,vegan_option
+node,7683239068,47.5672076,7.5908596,VITO Klybeck,restaurant,italian;pizza,yes,4057,Basel,False,vegan_option
+node,7685026291,47.498982,8.7202505,Migros Restaurant,restaurant,,yes,,,False,vegan_option
+node,7700425496,47.3406053,8.5299514,Eclipse Restaurant & Bar,restaurant,vietnamese;asian;international;coffee_shop;burger;sandwich;chicken;japanese;chinese;thai;american;ice_cream;seafood;noodle;steak_house;fish;cake;pasta;tea;juice;salad;dessert;diner;curry;western;fine_dining;soup;fries;european;udon,yes,8038,Zürich,False,vegan_option
+node,7750226460,46.967017,7.3587972,Bogen17 Kiosque,fast_food,international;regional;ice_cream,yes,,,False,vegan_option
+node,7765356215,46.5657136,7.3764687,Forellensee,restaurant,regional;ice_cream;coffee_shop;international;cake;salad;dessert,yes,3770,Zweisimmen,False,vegan_option
+node,7772352031,47.5549481,7.5914005,Cinnamood,cafe,cake,yes,4051,Basel,False,vegan_option
+node,7784095501,47.5699514,7.5949436,Pizza Amore mio,fast_food,,yes,4057,Basel,False,vegan_option
+node,7809972323,47.5680175,7.5903641,The Kebab Factory,fast_food,kebab,yes,4057,Basel,False,vegan_option
+node,7813901688,46.5309707,6.6292182,Antep Kebab 27,fast_food,kebab,yes,,,False,vegan_option
+node,7817784242,46.6846545,7.8558242,Velo Cafe,restaurant,,yes,,,False,vegan_option
+node,7840638541,47.4356183,9.3923919,Migros Take Away,fast_food,international,yes,9008,St. Gallen,False,vegan_option
+node,7893100199,46.9682653,7.4640267,Turbo Lama,restaurant,,only,3014,Bern,True,vegan_only
+node,7896809333,46.9284544,7.416711,India Town Lb,restaurant,indian,yes,3097,Liebefeld,False,vegan_option
+node,7932162722,47.3822487,8.5296459,Vegitat,fast_food,turkish,only,8005,Zürich,True,vegan_only
+node,7949539307,47.6793744,8.6187537,grünerbaum-gastronomie,restaurant,burger;cake;regional;sandwich;tapas,yes,8212,Neuhausen am Rheinfall,False,vegan_option
+node,7958003124,46.517294,6.487423,Réfectoire,restaurant,,only,,,True,vegan_only
+node,7992692128,47.5035992,8.7276785,Grüner Saal,restaurant,,yes,,,False,vegan_option
+node,8016865752,47.5543635,7.610095,Bäckerei Jetzer,cafe,,yes,4052,Basel,False,vegan_option
+node,8060373211,46.4683242,6.8456264,Bistrot des Cèdres,restaurant,lebanese;swiss,yes,,,False,vegan_option
+node,8060373608,47.5460436,7.5865808,Union Diner | Meret Oppenheim,restaurant,,yes,4053,Basel,False,vegan_option
+node,8121815739,46.9678333,8.3560215,Swisstasty,restaurant,burger,yes,,,False,vegan_option
+node,8126152481,46.5276258,6.5726699,La Café De Chavannes,cafe,,yes,1022,Chavannes-près-Renens,False,vegan_option
+node,8199027204,47.5181922,8.7200889,Hans im Glück,restaurant,burger,yes,8400,Winterthur,False,vegan_option
+node,8296723194,46.8567127,8.6448206,54 Hochgenuss,restaurant,international;regional,yes,,,False,vegan_option
+node,8343288848,46.4639035,6.8451498,Vecchia Napoli,restaurant,pizza,yes,,,False,vegan_option
+node,8516369518,47.3860162,9.2816939,Kebab House,fast_food,kebab;pizza,yes,,,False,vegan_option
+node,8572860018,47.0522161,8.3070625,PURA,restaurant,breakfast;coffee_shop;ice_cream,yes,,,False,vegan_option
+node,8594814083,47.0596867,7.6214481,B5,restaurant,,yes,,,False,vegan_option
+node,8761173577,47.0313856,8.4258525,Café Dahinden Weggis,cafe,,yes,6353,Weggis,False,vegan_option
+node,8785727518,47.3788366,8.5291393,Zum goldenen Taschenbrot,fast_food,kebab,only,8004,Zürich,True,vegan_only
+node,8825952950,46.6845586,7.8555244,Madras Jungle,restaurant,indian,yes,,,False,vegan_option
+node,8856473381,46.4755196,7.285591,Mango,restaurant,indian,yes,,,False,vegan_option
+node,8878817221,46.3162238,7.988788,Runder Store Brig,fast_food,mexican,yes,,,False,vegan_option
+node,8909431468,47.5658557,7.5912746,Finkmüller,cafe,coffee_shop,yes,,,False,vegan_option
+node,8914766611,46.9253216,7.4171242,Könizer Pizzeria,fast_food,pizza;kebab,yes,,,False,vegan_option
+node,8928205645,47.3530226,8.5505084,Fischerstube Zürihorn,restaurant,regional,yes,8008,Zürich,False,vegan_option
+node,8985498669,47.1003506,6.8323611,L'Amuse Bar,cafe,regional,yes,2300,La Chaux-de-Fonds,False,vegan_option
+node,8990515455,46.8364105,9.293434,Pizzeria Vitoria,restaurant,pizza,yes,7017,Flims Dorf,False,vegan_option
+node,9014373982,47.4702125,8.4035794,Lägernstübli,restaurant,regional,yes,8113,Boppelsen,False,vegan_option
+node,9070931950,47.4972624,8.9044526,AP Café Indoor-Racing,restaurant,burger;american;regional;salad;cake;pizza;ice_cream;fries;grill;european;bistro;wings;diner,yes,8355,Aadorf,False,vegan_option
+node,9101657572,47.2869612,7.9463905,Café Damascus,restaurant,lebanese;kebab,yes,4800,Zofingen,False,vegan_option
+node,9113069630,46.1923512,9.0222049,Grotto san Michele,restaurant,,yes,6500,Bellinzona,False,vegan_option
+node,9127970245,47.0400494,8.3042111,MeinRad,fast_food,juice;asian;international,only,6005,Luzern,True,vegan_only
+node,9153014798,45.9993553,8.9481663,Luini6,restaurant,,yes,6900,Lugano,False,vegan_option
+node,9170493573,46.5207131,6.6321157,Mexicana,restaurant,mexican,yes,1003,Lausanne,False,vegan_option
+node,9205491097,46.229202,7.3631208,10'dieci,restaurant,pizza,yes,1950,Sion,False,vegan_option
+node,9211847318,46.8537762,8.1882233,Bistro Uiszyt,restaurant,pizza;regional;ice_cream,yes,6074,Giswil,False,vegan_option
+node,9223853644,47.7037097,8.6304461,Khawa,restaurant,asian,yes,8200,Schaffhausen,False,vegan_option
+node,9271949217,47.3873149,8.5171254,roots,restaurant,,only,8005,Zürich,True,vegan_only
+node,9272067500,46.945012,7.4177242,Café Hueber,cafe,,yes,,,False,vegan_option
+node,9272119967,46.5272574,6.6067078,10' dieci,restaurant,pizza,yes,1004,Lausanne,False,vegan_option
+node,9291427953,47.3519503,8.5611316,Blaue Ente,restaurant,,yes,,,False,vegan_option
+node,9340288327,47.5010438,8.7241901,Frau Hund,fast_food,hot_dog,yes,,,False,vegan_option
+node,9379081937,46.0053107,8.9530601,Natural Food,fast_food,italian,only,6900,Lugano,True,vegan_only
+node,9499319817,47.3781881,8.5441334,Mohini,restaurant,,yes,,,False,vegan_option
+node,9508287462,46.831525,9.2821673,Bündner Stube,restaurant,regional,yes,7018,Flims Waldhaus,False,vegan_option
+node,9510671656,46.9570012,7.4569605,Darling Restaurant,restaurant,regional,yes,3013,Bern,False,vegan_option
+node,9560861817,47.3529891,8.5510576,Fischerstube See Theke,restaurant,,yes,,,False,vegan_option
+node,9611153817,46.5106361,6.6262733,Beirut House,restaurant,lebanese;mezze;sandwich;burger;shawarma;kafta;soujouk;falafel;baklawa;osmalliyah;mouhalabieh;hommos;moutabbal;labné;fattouch;tabboulé;feuilles_de_vigne;rkakat;sambousek;kibblé;batata_harra,yes,1007,Lausanne,False,vegan_option
+node,9612917403,47.5543164,7.588297,La Sandwicherie,fast_food,sandwich,only,4051,Basel,True,vegan_only
+node,9651267228,47.4946577,8.7577853,McDonald's,fast_food,burger,yes,8404,Winterthur,False,vegan_option
+node,9655661531,47.4997199,8.7236759,Burgermeister,fast_food,burger,yes,,,False,vegan_option
+node,9660896857,46.5246258,6.6264669,Veggie Moon's,restaurant,,yes,1004,Lausanne,False,vegan_option
+node,9660979635,46.5232723,6.630242,Racines,restaurant,,only,,Lausanne,True,vegan_only
+node,9666216541,47.3730227,8.518203,Pizzeria Felice,restaurant,pizza,yes,8003,Zürich,False,vegan_option
+node,9693172821,47.1569774,8.5187325,Restaurant Guggital,restaurant,regional;international,yes,6300,Zug,False,vegan_option
+node,9702838416,46.1952342,9.0250006,Pizza Napoli,fast_food,pizza,yes,6500,Bellinzona,False,vegan_option
+node,9722828087,46.8825553,8.6449605,Tsam,restaurant,asian,yes,,,False,vegan_option
+node,9726692784,47.3735325,8.5440118,barfüsser,restaurant,sushi,yes,,,False,vegan_option
+node,9780147859,46.5228103,6.6285098,Bel-Air Coffee,cafe,,yes,,,False,vegan_option
+node,9792386803,47.3783449,8.5357764,Vito,restaurant,pizza,yes,8004,Zürich,False,vegan_option
+node,9857946556,47.3921578,8.5126887,Himalaya Burger & Co.,restaurant,burger;tibetan,yes,,,False,vegan_option
+node,9871385224,47.556414,7.5884475,Burgermeister,restaurant,burger,yes,,,False,vegan_option
+node,9897775120,46.8093585,7.1476541,Dieci pizza,restaurant,pizza,yes,1700,Fribourg,False,vegan_option
+node,9914824152,47.5551019,7.5890491,ZaZaa,restaurant,lebanese,yes,4051,Basel,False,vegan_option
+node,9936659072,46.3213015,7.9897389,Promenade,restaurant,pizza;regional,yes,,,False,vegan_option
+node,9954734837,46.7119997,6.3747844,FUSION BURGER (Big Up),restaurant,international;swiss;fusion;burger;world,yes,1337,Vallorbe,False,vegan_option
+node,9992557578,47.4875076,8.7667035,Swissly & Co,restaurant,turkish,yes,8405,Winterthur,False,vegan_option
+node,9997897959,46.8057735,7.1595762,Chez Ginette,restaurant,vietnamese,yes,1700,Fribourg,False,vegan_option
+node,10020162040,46.3787155,7.6286373,Fein Restaurant,restaurant,swiss,yes,3954,Leukerbad,False,vegan_option
+node,10091956259,47.4079065,9.3057402,Coop Restaurant,restaurant,german,yes,,,False,vegan_option
+node,10141445815,47.3931188,8.4897288,Zeus,fast_food,greek,yes,8048,Zürich,False,vegan_option
+node,10183012025,47.055002,7.6295508,Restaurant Schloss Burgdorf,restaurant,regional,yes,,,False,vegan_option
+node,10310405298,47.3703079,8.5362399,TheBab,fast_food,turkish,yes,8001,Zürich,False,vegan_option
+node,10560068317,46.1035411,7.2244334,Le Grenier,restaurant,italian;suisse,yes,1936,Verbier,False,vegan_option
+node,10580082126,47.697519,8.6337662,Cibus TAKE AWAY,fast_food,international;regional;italian,yes,8200,Schaffhausen,False,vegan_option
+node,10608357008,47.5674377,7.6017047,Kitchen 41,restaurant,thai,yes,4058,Basel,False,vegan_option
+node,10623709323,47.3870148,8.5201885,Kleinwäscherei,restaurant,,yes,8005,Zürich,False,vegan_option
+node,10652308129,47.5547239,7.5917586,Cafè Moment,cafe,,yes,4051,Basel,False,vegan_option
+node,10683015755,46.3777172,8.017615,Riederfurka,restaurant,,yes,,,False,vegan_option
+node,10704773552,47.3929208,8.5120131,Bill's Burger,restaurant,burger,yes,8005,Zürich,False,vegan_option
+node,10749715332,47.3669087,8.4972102,Stadtspital Zürich Triemli,restaurant,,yes,,,False,vegan_option
+node,10779724980,47.3810756,8.4837137,La Pizza Buona,fast_food,pizza,yes,,,False,vegan_option
+node,10786876339,46.9287097,7.4457956,Restaurant Gross-Wabern,restaurant,international;regional,yes,,,False,vegan_option
+node,10828683803,47.3617836,8.5612343,Hegifret Kaffeefenster,cafe,,yes,8032,,False,vegan_option
+node,10856205423,46.9569124,7.4321139,Sicula,fast_food,pizza,yes,3012,Bern,False,vegan_option
+node,10860875524,46.9595433,7.4574836,dieci Pizza Kurier,fast_food,pizza,yes,3014,Bern,False,vegan_option
+node,10868980826,47.4731754,8.308305,Yuki Kun,restaurant,japanese;sushi,yes,,,False,vegan_option
+node,10883175858,46.8506597,9.5348449,Kulturpunkt GR,restaurant,international,yes,7000,Chur,False,vegan_option
+node,10911393688,46.9554657,7.4812615,ManGiaMò,fast_food,italian,yes,,,False,vegan_option
+node,10926192112,46.4588507,6.8433557,Le Petit Carré,cafe,belgian;beer;cidre;cocktail;soft;coffee_shop;wine;tea;pancake;crepe;granola;tartine;egg_muffin;croissant;cheese;charcuterie;houmous;dahl;fish;tartare;beef;moules_frites;burger;waffle,yes,,,False,vegan_option
+node,10949185819,47.3547568,8.2767804,Tom's Diner,restaurant,burger,yes,,,False,vegan_option
+node,10967821232,47.6953761,8.6423408,Café am Rheinquai,cafe,,yes,8200,Schaffhausen,False,vegan_option
+node,10989822661,47.4017837,8.4995669,Dad's Bistro,fast_food,,yes,,,False,vegan_option
+node,11076535105,46.0221885,7.7469936,Vegistube,restaurant,,yes,3920,,False,vegan_option
+node,11084058926,46.0205204,7.7494099,Zermatt Kitchen,restaurant,,yes,3920,Zermatt,False,vegan_option
+node,11085084446,46.8043311,7.155017,BekaaHouse,restaurant,lebanese,yes,1700,Fribourg,False,vegan_option
+node,11112423776,46.2063942,6.1413661,Restô Beirut,restaurant,lebanese,yes,,,False,vegan_option
+node,11160283450,47.1654743,9.4694649,Gasthaus Traube Buchs,restaurant,regional,yes,9470,Buchs SG,False,vegan_option
+node,11183346584,46.2308046,6.0481801,Cafeteria,cafe,coffee_shop;sandwich;breakfast;donut;cake;pasta;salad;dessert;pastry;soup;bistro,yes,,,False,vegan_option
+node,11210762819,46.848931,9.5299104,Pizza Express,restaurant,,yes,,,False,vegan_option
+node,11211942437,47.3709215,8.5220385,Hikari,restaurant,japanese,yes,8003,Zürich,False,vegan_option
+node,11224815411,46.3155728,7.9900584,Schlosskellwr Take-Away,fast_food,,yes,,,False,vegan_option
+node,11226561767,47.3931031,8.4897949,Lucky's Thai Food Truck,fast_food,thai,yes,8048,Zürich,False,vegan_option
+node,11268815617,47.3923728,8.5104083,roots kitchen,restaurant,,only,8005,Zürich,True,vegan_only
+node,11278373439,47.3915462,8.4879993,Orient Express,fast_food,grill;kebab;turkish,yes,,,False,vegan_option
+node,11286505701,47.276728,8.4516379,dieci,restaurant,pizza,yes,8910,Affoltern am Albis,False,vegan_option
+node,11291304295,46.3193606,6.9683874,Pizza Passione,restaurant,italian;pizza,yes,,,False,vegan_option
+node,11359233652,46.2249978,6.1065658,Seventy5,restaurant,,yes,,,False,vegan_option
+node,11379700569,47.5585109,7.5832549,Cafeteria Kollegienhaus,cafe,bagel;breakfast;coffee_shop;sandwich;pizza,yes,,,False,vegan_option
+node,11579649472,47.2025682,7.582012,Golden Papaya,fast_food,asian,yes,,,False,vegan_option
+node,11656371290,47.3679576,8.5370912,Kailash Parbat,restaurant,indian,yes,8002,Zürich,False,vegan_option
+node,11662696969,47.1667919,9.4771642,La Vida,restaurant,coffee_shop,yes,9470,Buchs SG,False,vegan_option
+node,11663979101,47.2017522,7.449291,Wirtshaus zur Grabachern,restaurant,german;international;regional,yes,2545,Selzach,False,vegan_option
+node,11761779035,47.3642496,8.5552806,Kebab Grill Xolldi CCC,fast_food,kebab,yes,,,False,vegan_option
+node,11804249665,47.049848,8.3069697,Abi's Luzern Kebab,restaurant,kebab,yes,,,False,vegan_option
+node,11813857616,47.3888734,8.5175971,Ahoi!,cafe,,yes,8005,Zürich,False,vegan_option
+node,11833075406,47.3818434,8.4927361,Kantine F+F,restaurant,,yes,,,False,vegan_option
+node,11871616433,46.9466117,7.4360958,BoulderBad Bistro,restaurant,coffee_shop;cake;salad,yes,3011,Bern,False,vegan_option
+node,11963510212,46.8486364,9.5314099,Via Paradiso 8,restaurant,mediterranean,yes,,,False,vegan_option
+node,11965365869,47.4136088,8.5201724,Glückbar Café,cafe,,yes,,,False,vegan_option
+node,12007516980,47.5647851,7.5664099,Cantilena Restaurant,restaurant,,yes,4055,Basel,False,vegan_option
+node,12019979997,46.2070616,6.1436286,Café Calico,cafe,coffee_shop;coffee,yes,1201,Genève,False,vegan_option
+node,12042946769,47.3600451,8.573344,Kafi Mühli,cafe,sandwich;coffee_shop;ice_cream;breakfast;cake;tea;salad;bistro,yes,8032,Zürich,False,vegan_option
+node,12051469479,47.4314456,8.468755,Kaimug,fast_food,thai,yes,,,False,vegan_option
+node,12070188866,47.3886212,8.486242,La Taqueria,restaurant,mexican,yes,8048,Zürich,False,vegan_option
+node,12175322416,46.1823708,6.1412794,EnVie Food Hall,restaurant,,yes,,,False,vegan_option
+node,12179749227,47.2046564,7.7822955,przi rest lthal,restaurant,,yes,4900,Langenthal,False,vegan_option
+node,12205267240,47.2262003,8.8151693,Paia Poké,restaurant,hawaiian,yes,8640,Rapperswil SG,False,vegan_option
+node,12218762170,46.7210058,9.44615,Vegi Restaurant Oz,restaurant,regional,yes,7414,Fürstenau,False,vegan_option
+node,12249164699,46.021857,7.7542631,Bazaar,restaurant,middle_eastern;asian,yes,,,False,vegan_option
+node,12277879759,47.099812,6.8255597,Chef Falafel,restaurant,middle_eastern,yes,2300,La Chaux-de-Fonds,False,vegan_option
+node,12302378950,46.8539512,9.3264536,Berghaus Bargis,restaurant,swiss,yes,7019,Fidaz,False,vegan_option
+node,12353905327,47.1336758,7.2436606,Café Bar Hasard,cafe,,yes,,,False,vegan_option
+node,12452501330,46.1899142,6.1435762,Rajpoute,restaurant,indian,yes,,,False,vegan_option
+node,12480397207,47.4418949,8.4652492,Dieci Pizza Kurier,restaurant,pizza,yes,8105,Regensdorf,False,vegan_option
+node,12522876294,46.2322274,6.1113617,Ur Poke,restaurant,pokebowl;sushi,yes,1215,Cointrin,False,vegan_option
+node,12537123761,46.2928709,7.8816911,Your Happy Food,restaurant,asian,yes,,,False,vegan_option
+node,12561243401,47.3571792,8.5531184,Weera Pura,restaurant,asian,yes,,,False,vegan_option
+node,12600440831,46.624554,8.0340274,Restaurant Kreuz & Post,restaurant,international;regional,yes,,,False,vegan_option
+node,12600440833,46.6214496,8.0302475,Petit Glacier,restaurant,international,yes,,,False,vegan_option
+node,12600440834,46.6214805,8.03023,Glacier Fine Dining,restaurant,international,yes,,,False,vegan_option
+node,12600784149,46.6234101,8.0381821,"Barrys Restaurant, Bar & Lounge",restaurant,burger;regional,yes,,,False,vegan_option
+node,12613478878,47.0550286,8.314796,CAAA by Pietro Catalano,restaurant,regional;italian;french;breakfast;fine_dining;dineology;modern;gourmet,yes,6006,Luzern,False,vegan_option
+node,12627975047,46.4901068,7.5568365,UNICO by Alte Taverne,restaurant,mexican,yes,,,False,vegan_option
+node,12663326764,47.3608124,8.5516525,Razzia Restaurant,restaurant,fine_dining,yes,8008,Zürich,False,vegan_option
+node,12803703913,47.3079825,7.0488752,Restaurant du Cerf,restaurant,regional,yes,,,False,vegan_option
+node,12818232615,47.3837006,8.5284303,Borderless Kitchen popup,restaurant,asian;indian;burmese;chinese,yes,8005,Zürich,False,vegan_option
+node,12833107388,47.3546861,8.5581207,DRAFT. Coffee,cafe,coffee_shop,yes,8008,Zürich,False,vegan_option
+node,12839773432,46.9498673,7.4417788,Mahataja,restaurant,indian,yes,,,False,vegan_option
+node,12876839970,47.6910518,8.6532183,Lunas Crêpes,fast_food,crepe,yes,,,False,vegan_option
+node,12948818660,46.16819,8.7765828,10' dieci,fast_food,pizza,yes,6600,Locarno,False,vegan_option
+node,12951272850,46.4319478,6.9113225,La Table de Montreux,restaurant,,yes,,,False,vegan_option
+node,12959299843,46.9546759,7.4518209,Gastwerk,restaurant,persian;afghan;oriental;palestinian,yes,3013,Bern,False,vegan_option
+node,12961079791,47.1422404,8.4280689,Café Malea I Cycling Pit Stop!,cafe,coffee_shop,yes,6343,Rotkreuz,False,vegan_option
+node,12973076055,46.9971361,6.9477193,10' dieci,restaurant,pizza;italian,yes,2000,Neuchâtel,False,vegan_option
+node,12976432601,47.1007123,6.8277624,Luciole,restaurant,,yes,,,False,vegan_option
+node,12987593252,47.1678958,8.7304512,ichbrauche.ch GmbH,restaurant,regional,yes,,,False,vegan_option
+node,13048973701,47.5620518,7.5858326,Dan‘s LAB,cafe,sandwich;cake,yes,4051,Basel,False,vegan_option
+node,13110679208,47.5596511,7.587729,Astro Fries,fast_food,fries,yes,4051,Basel,False,vegan_option
+node,13119175376,47.6538635,9.1677699,soulfood,restaurant,,only,,,True,vegan_only
+node,13128080855,47.3804002,8.5250743,OMA MAO,restaurant,asian,yes,8004,Zürich,False,vegan_option
+node,13186671334,47.1684558,8.1140604,Molini Pizza,restaurant,pizza,yes,6210,Sursee,False,vegan_option
+node,13205401881,47.448359,8.584271,Tschadun,restaurant,,yes,8302,Kloten,False,vegan_option
+node,13314382933,46.9819461,8.619864,Buongustaio,restaurant,italian;pizza,yes,6443,Morschach,False,vegan_option
+node,13344114703,46.9470847,7.4500766,beans & nuts .,cafe,bagel;breakfast;coffee_shop;tea,yes,3011,,False,vegan_option
+node,13357511049,47.4212747,8.3759169,IKEA Restaurant,fast_food,swedish,yes,,,False,vegan_option
+node,13357511050,47.4213018,8.3756743,IKEA Bistro,fast_food,swedish,yes,,,False,vegan_option
+node,13388350201,46.9942883,6.9353497,Nomade - Cuisine Tibétaine,restaurant,tibetan,yes,2000,Neuchâtel,False,vegan_option
+node,13421255301,47.045059,8.3064607,plant.,restaurant,,yes,6003,,False,vegan_option
+node,13426907578,46.4933173,7.5601964,La Orquídea,restaurant,asian,yes,,,False,vegan_option
+node,13503454885,46.5410599,6.6589472,Le 1887,restaurant,,yes,1010,Lausanne,False,vegan_option
+node,13524639486,47.3745027,8.517296,ISULE,cafe,pastry;bakery;coffee;tea,yes,,,False,vegan_option
+node,13536099206,46.5962313,9.5987334,Arpaci,restaurant,,yes,,,False,vegan_option
+node,13658985264,46.8447887,9.5066784,Fürst und Schmalz,restaurant,regional,yes,7000,Chur,False,vegan_option
+node,13689146823,46.1684359,8.7876351,Da Larissa,restaurant,italian,yes,6600,Locarno,False,vegan_option
+node,13741880048,47.6936909,8.6493423,Kugelbistro,restaurant,bistro;coffee_shop;sandwich,yes,8200,Schaffhausen,False,vegan_option
+node,13742986144,47.387346,8.5171656,Collective Bakery,cafe,,only,8005,Zürich,True,vegan_only
+node,13959917901,47.5094695,8.7632287,Café chez Louti,cafe,arab;breakfast;coffee_shop,yes,,,False,vegan_option
+node,14090069126,47.5643616,7.5656629,Umami Basel,restaurant,fusion;turkish,yes,4955,Basel,False,vegan_option
+node,14091327973,47.5644966,7.5649815,Bio Bistro im Westfeld,restaurant,,yes,4055,Basel,False,vegan_option
+node,14131283969,47.0661397,8.282106,FlowFood,restaurant,indian,yes,6015,Luzern,False,vegan_option
+node,14138345401,46.4892107,6.3712858,Jardins de Chivrageon,restaurant,,yes,1170,,False,vegan_option
+node,14144706389,47.0746216,8.2865301,BaBa Oriental,fast_food,kebab;mediterranean,yes,6020,Emmen,False,vegan_option
+node,14203352696,47.5444733,7.5898803,RICE to meet you,restaurant,thai;asian,yes,4053,Basel,False,vegan_option
+node,14227830036,47.390725,8.1698562,Stapferhaus Bistro,cafe,bistro,yes,,,False,vegan_option
+node,14254586201,46.2003045,6.1346141,Cadmus,restaurant,arab;lebanese;armenian;syrian;middle_eastern,yes,,,False,vegan_option
+node,14277897501,46.5270062,6.6183495,Yada Thai Canteen,restaurant,thai,yes,1004,,False,vegan_option
+node,14282867419,47.5573311,7.5848102,Pestobar,restaurant,noodle,yes,,,False,vegan_option
+node,14288740777,46.5919793,9.5985626,La Nars,restaurant,,yes,7460,Savognin,False,vegan_option
+node,14291014339,46.9486432,7.4073795,Blue Sky,restaurant,pizza;pasta;breakfast,yes,3008,Bern,False,vegan_option
+node,14340508374,47.4501876,8.5627275,Roots,fast_food,,only,,,True,vegan_only
+node,14352555819,47.5663888,7.5923825,The Siam Delicious,restaurant,thai,yes,,,False,vegan_option
+way,28806565,47.4439817,8.2293672,Cockpit,restaurant,,yes,,,False,vegan_option
+way,41016083,47.2496015,9.3442906,Berggasthaus Alter Säntis,restaurant,,yes,9107,Urnäsch,False,vegan_option
+way,46785816,46.5164319,6.6380875,Obeirut,restaurant,,yes,,Lausanne,False,vegan_option
+way,51727860,47.2017441,7.4492042,Wirtshaus zur Grabachern,restaurant,german;international;regional,yes,2545,Selzach,False,vegan_option
+way,89535401,47.1274735,7.2344276,La Péniche,restaurant,,yes,2560,Nidau,False,vegan_option
+way,97234512,47.3834499,8.54795,Linde Oberstrass,restaurant,swiss,yes,8006,Zürich,False,vegan_option
+way,99899136,47.2084813,8.7066971,Restaurant Namaste Schiffli,restaurant,,yes,8805,,False,vegan_option
+way,111268331,47.5474241,7.6476657,Hotel Restaurant Waldhaus,restaurant,regional,yes,4127,Birsfelden,False,vegan_option
+way,113622677,47.3958684,8.4458262,Stürmeierhuus,restaurant,,yes,8952,,False,vegan_option
+way,138024484,47.0502534,9.4372904,Schloss Sargans,restaurant,,yes,7320,Sargans,False,vegan_option
+way,155439796,47.3145116,8.5260137,Hei Fung,restaurant,chinese,yes,8134,Adliswil,False,vegan_option
+way,160766183,47.7298204,8.5386259,Siblinger Randenhaus,restaurant,regional,yes,,Siblingen,False,vegan_option
+way,177907443,47.3721696,9.1833219,Wolfensberg,restaurant,regional,yes,9113,Degersheim,False,vegan_option
+way,182083336,47.4035886,8.4018676,Mahnaz,restaurant,persian,yes,,,False,vegan_option
+way,209080040,47.2696234,9.4012659,Seealpsee,restaurant,,yes,9057,Wasserauen,False,vegan_option
+way,209820983,47.4704002,7.7090874,Restaurant Curry-Hus,restaurant,indian,yes,4412,Nuglar,False,vegan_option
+way,210985379,47.253088,9.4246575,Berggasthaus Bollenwees,restaurant,,yes,9058,Brülisau,False,vegan_option
+way,210985396,47.2486848,9.3288302,Berggasthaus Tierwies,restaurant,,yes,9107,Urnäsch,False,vegan_option
+way,217957575,46.0167758,7.7869085,Blue Lounge,restaurant,,yes,,,False,vegan_option
+way,219333357,47.6077126,8.5436783,Restaurant Botanica,restaurant,regional,yes,8197,Rafz,False,vegan_option
+way,221204030,46.9014904,8.6449151,Gasthaus Eggberge,restaurant,,yes,6460,Altdorf UR,False,vegan_option
+way,231616903,47.4528159,8.5802332,Red Lion,restaurant,chinese,yes,,,False,vegan_option
+way,237484252,46.7730162,7.1617777,Le Castel - Cuisine Thaï,restaurant,thai,yes,1723,Marly,False,vegan_option
+way,240787989,47.3313293,9.4085349,Hotel Traube,restaurant,regional,yes,9050,Appenzell,False,vegan_option
+way,259196142,47.5265073,9.418411,Strandbadrestaurant,restaurant,,yes,9320,Arbon,False,vegan_option
+way,262833352,47.0582392,8.5320308,Horseshoe Bar & Restaurant Schöntal,restaurant,regional,yes,6414,Oberarth,False,vegan_option
+way,265284984,46.402407,8.1335241,des Alpes,restaurant,pizza;regional,yes,3984,Fiesch,False,vegan_option
+way,291764597,46.9752918,8.6703256,Stooshütte,restaurant,regional,yes,6433,Stoos SZ,False,vegan_option
+way,301393855,47.4956748,8.7179027,Imbiss El Arish,fast_food,egyptian,only,,,True,vegan_only
+way,309652296,46.8543617,8.6835071,Skihaus,restaurant,,yes,6469,Haldi b. Schattdorf,False,vegan_option
+way,312033340,46.127195,8.8134229,Sass da Grüm Restaurant,restaurant,,yes,6575,San Nazzaro-Vairano,False,vegan_option
+way,321341276,46.2508292,7.8297467,Moosalp,restaurant,regional,yes,3923,Törbel,False,vegan_option
+way,371577316,46.1105126,7.9282671,Essstube,restaurant,,yes,3906,Saas-Fee,False,vegan_option
+way,376382291,47.5471247,7.5893463,Acento Argentino,fast_food,empanada;argentinian,yes,,,False,vegan_option
+way,376382380,47.5469835,7.5892346,Vito,fast_food,pizza,yes,4053,Basel,False,vegan_option
+way,379354222,47.0504811,8.3107311,Veganitas,fast_food,sandwich,yes,,,False,vegan_option
+way,379376086,47.0502947,8.3102863,Brezelkönig,fast_food,pretzel,yes,6003,Luzern,False,vegan_option
+way,379387013,47.0500387,8.3098765,Tibits,restaurant,,yes,6003,Luzern,False,vegan_option
+way,379582606,46.9485936,7.4403428,Veganitas,fast_food,pita,yes,,,False,vegan_option
+way,379582633,46.9486568,7.4403356,McDonald's,fast_food,burger,yes,3011,Bern,False,vegan_option
+way,380094845,47.4998822,8.7236323,Rice Up!,fast_food,asian,yes,8400,Winterthur,False,vegan_option
+way,460523809,46.9434861,7.3918016,Cafébar Pinprinza,cafe,coffee_shop;regional;ice_cream;sandwich;breakfast;cake;tea;pastry,yes,3018,Bern,False,vegan_option
+way,675305407,46.9488201,7.4402772,La Place Orientale,fast_food,kebab,yes,,,False,vegan_option
+way,675305408,46.9487467,7.4403041,Rice Up!,fast_food,asian,yes,3011,Bern,False,vegan_option
+way,684919343,47.5472187,7.5894213,Backwerk,fast_food,,yes,,,False,vegan_option
+way,716615764,46.8805893,8.6457943,E's Thai Away,fast_food,thai,yes,6460,Altdorf UR,False,vegan_option
+way,807968190,47.0504606,8.3105611,Burgermeister,fast_food,burger,yes,6002,Luzern,False,vegan_option
+way,807968191,47.0504672,8.3106433,Tenz Momo,fast_food,asian,yes,,,False,vegan_option
+way,995543410,46.3924763,8.0664856,Restaurant Walliserstube,restaurant,regional,yes,,,False,vegan_option
+way,1377405999,47.7700679,8.5738172,RandeLab cooking area,restaurant,barbecue,yes,,,False,vegan_option
+way,1524301863,47.4231695,9.3675033,Gastronomie OST St. Gallen,restaurant,,yes,9001,St. Gallen,False,vegan_option
+relation,2879236,46.9454472,7.4496905,Terrasse Schwellenmätteli,restaurant,fish;french;regional,yes,3005,Bern,False,vegan_option
+relation,4250278,47.5590428,7.5953057,Hirscheneck,restaurant,,yes,,,False,vegan_option
