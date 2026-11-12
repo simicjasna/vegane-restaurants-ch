@@ -1,133 +1,133 @@
-# Dichte veganer Restaurants in Schweizer Gemeinden
+# Density of Vegan Restaurants in Swiss Municipalities
 
-<img src="docs/title-image.png" alt="Karte der Schweiz mit veganen Restaurants und Ausschnitt einer Gemeinde" width="80%">
+<img src="docs/title-image.png" alt="Map of Switzerland with vegan restaurants and a close-up of a municipality" width="80%">
 
-Projekt im Modul **Data Analytics** (Bachelor Wirtschaftsinformatik, ZHAW).
+Project in the module **Data Analytics** (Bachelor Business Information Technology, ZHAW).
 
 | | |
 | :----- | :----- |
-| **Gruppe** | 31 |
-| **Studierende** | Jasna Simic, Marija Radovanovic, Jaden Fisch |
+| **Group** | 31 |
+| **Students** | Jasna Simic, Marija Radovanovic, Jaden Fisch |
 
-# Inhaltsverzeichnis
-- [Einleitung](#einleitung)
-    - [Hintergrund und Problemstellung](#hintergrund-und-problemstellung)
-    - [Ziel und Forschungsfrage](#ziel-und-forschungsfrage)
-- [Projektmanagement](#projektmanagement)
-    - [Iteratives Vorgehensmodell](#iteratives-vorgehensmodell)
-    - [VSC Struktur](#vsc-struktur)
-- [Minimalanforderungen](#minimalanforderungen)
-    - [Datenerhebung](#datenerhebung)
-    - [Datenaufbereitung und Integration](#datenaufbereitung-und-integration)
-    - [Datenspeicherung](#datenspeicherung)
-    - [Explorative Datenanalyse](#explorative-datenanalyse)
-    - [Modellierung und Evaluation](#modellierung-und-evaluation)
-- [Zusatzanforderungen](#zusatzanforderungen)
-    - [Kreativität der Umsetzung](#kreativität-der-umsetzung)
-    - [PostgreSQL Datenbank](#postgresql-datenbank)
-    - [Geografische Daten](#geografische-daten)
-    - [Statistische Tests (Chi Quadrat, ANOVA, Korrelation)](#statistische-tests-chi-quadrat-anova-korrelation)
+# Table of Contents
+- [Introduction](#introduction)
+    - [Background and Problem Statement](#background-and-problem-statement)
+    - [Goal and Research Question](#goal-and-research-question)
+- [Project Management](#project-management)
+    - [Iterative Process Model](#iterative-process-model)
+    - [Git Structure](#git-structure)
+- [Minimum Requirements](#minimum-requirements)
+    - [Data Collection](#data-collection)
+    - [Data Preparation and Integration](#data-preparation-and-integration)
+    - [Data Storage](#data-storage)
+    - [Exploratory Data Analysis](#exploratory-data-analysis)
+    - [Modeling and Evaluation](#modeling-and-evaluation)
+- [Additional Requirements](#additional-requirements)
+    - [Creativity of the Implementation](#creativity-of-the-implementation)
+    - [PostgreSQL Database](#postgresql-database)
+    - [Geographic Data](#geographic-data)
+    - [Statistical Tests (Chi-Square, ANOVA, Correlation)](#statistical-tests-chi-square-anova-correlation)
     - [k-Means Clustering](#k-means-clustering)
     - [GitHub Repository](#github-repository)
-- [Resultate und Diskussion](#resultate-und-diskussion)
-- [Schlussfolgerungen](#schlussfolgerungen)
-- [Einsatz von KI](#einsatz-von-ki)
-- [Anhang](#anhang)
-    - [Quellenverzeichnis](#quellenverzeichnis)
+- [Results and Discussion](#results-and-discussion)
+- [Conclusions](#conclusions)
+- [Use of AI](#use-of-ai)
+- [Appendix](#appendix)
+    - [References](#references)
 
-# Einleitung
+# Introduction
 
-## Hintergrund und Problemstellung
+## Background and Problem Statement
 
-Vegane Ernährung ist in den letzten Jahren in der Gastronomie sichtbarer geworden. Restaurants mit einem veganen Angebot sind in der Schweiz aber nicht gleichmässig verteilt. Vermutlich ist die Auswahl in grossen Städten und an Hochschulstandorten gross, während es in vielen kleinen und ländlichen Gemeinden kaum ein Angebot gibt.
+Vegan food has become more visible in the restaurant sector in recent years. However, restaurants with a vegan offering are not evenly distributed across Switzerland. The choice is probably large in big cities and university towns, while many small and rural municipalities offer hardly anything.
 
-Verzeichnisse und Karten zeigen zwar, wo es vegane Restaurants gibt, sie erklären aber nicht, **warum** das Angebot in manchen Gemeinden dichter ist als in anderen. Es ist unklar, welche Eigenschaften einer Gemeinde, zum Beispiel die Altersstruktur, das Einkommen oder der Anteil Studierender, mit einem dichten veganen Angebot zusammenhängen.
+Directories and maps show where vegan restaurants are, but they do not explain **why** the offering is denser in some municipalities than in others. It is unclear which characteristics of a municipality, for example its age structure, income or share of students, are related to a dense vegan offering.
 
-Dieses Wissen ist für verschiedene Gruppen nützlich:
+This knowledge is useful for several groups:
 
-- **Gastronomen und Gründer:** für die Standortwahl eines neuen Betriebs.
-- **Gemeinden und Tourismusorganisationen:** um das eigene Angebot im Vergleich einzuordnen.
-- **Konsumenten:** um zu sehen, in welchen Regionen die Auswahl gross oder klein ist.
+- **Restaurateurs and founders:** for choosing the location of a new business.
+- **Municipalities and tourism organizations:** to compare their own offering with others.
+- **Consumers:** to see in which regions the choice is large or small.
 
-## Ziel und Forschungsfrage
+## Goal and Research Question
 
-Wir möchten untersuchen, wo das vegane Angebot in der Schweiz am grössten ist und welche Merkmale einer Gemeinde dies erklären. Dazu berechnen wir für jede Gemeinde die **Dichte veganer Restaurants** (Anzahl pro 1000 Einwohner). Als Gemeinde gilt die politische Gemeinde gemäss BFS Gemeindeverzeichnis. Anschliessend untersuchen wir, welche Gemeindemerkmale mit dieser Dichte zusammenhängen, und vergleichen Gruppen von Gemeinden (z. B. städtische und ländliche Gemeinden).
+We want to investigate where the vegan offering in Switzerland is largest and which characteristics of a municipality explain this. For this purpose, we calculate the **density of vegan restaurants** (number per 1,000 inhabitants) for each municipality. A municipality is a political municipality according to the BFS municipality directory. We then examine which municipality characteristics are related to this density and compare groups of municipalities (e.g. urban and rural municipalities).
 
 > [!IMPORTANT]
-> **Forschungsfrage:** Welche Merkmale einer Gemeinde (z. B. Altersstruktur, Einkommen, Anteil Studierende) erklären die Dichte veganer Restaurants (Anzahl pro 1000 Einwohner) in der Schweiz?
+> **Research question:** Which characteristics of a municipality (e.g. age structure, income, share of students) explain the density of vegan restaurants (number per 1,000 inhabitants) in Switzerland?
 
-**Erwartete Ergebnisse**
+**Expected results**
 
-Die folgenden Annahmen gelten vor der Analyse und betreffen die Merkmale, die wir als Erstes erwarten. Die genannten Merkmale sind Beispiele, weitere Gemeindemerkmale aus den BFS Daten (z. B. Gemeindetyp, Sprachregion oder Bevölkerungsgrösse) prüfen wir ebenfalls. Welche Merkmale wir am Ende verwenden, dokumentieren wir im Kapitel [Datenaufbereitung und Integration](#datenaufbereitung-und-integration). Ob sich die Annahmen bestätigen, zeigt sich im Kapitel [Resultate und Diskussion](#resultate-und-diskussion).
+The following assumptions are made before the analysis and concern the characteristics we expect first. The characteristics named are examples; we also examine further municipality characteristics from the BFS data (e.g. municipality type, language region or population size). Which characteristics we finally use is documented in the chapter [Data Preparation and Integration](#data-preparation-and-integration). Whether the assumptions are confirmed is shown in the chapter [Results and Discussion](#results-and-discussion).
 
-- Gemeinden mit mehr jungen Personen und Studierenden haben eine höhere Dichte, weil diese Gruppen vegane Angebote häufiger nachfragen.
-- Gemeinden mit höherem Einkommen haben eine höhere Dichte, weil eine höhere Kaufkraft spezialisierte Angebote eher möglich macht.
-- Städtische Gemeinden haben im Mittel eine höhere Dichte als ländliche, weil eine grössere Kundschaft Nischenangebote tragen kann.
+- Municipalities with more young people and students have a higher density, because these groups ask for vegan offerings more often.
+- Municipalities with higher income have a higher density, because higher purchasing power makes specialized offerings more feasible.
+- Urban municipalities have a higher density on average than rural ones, because a larger customer base can support niche offerings.
 
-# Projektmanagement
+# Project Management
 
-## Iteratives Vorgehensmodell
+## Iterative Process Model
 
-Wir arbeiten als Team zu dritt nach einem iterativen Vorgehensmodell, das die gesamte Zusammenarbeit abdeckt. Die Arbeitspakete werden pro Kategorie verteilt und jeweils im entsprechenden Branch umgesetzt. Nach der Besprechung im Team beginnt ein neuer Durchlauf.
+We work as a team of three following an iterative process model that covers the whole collaboration. Work packages are distributed per category and implemented in the corresponding branch. After the team discussion, a new iteration begins.
 
-<img src="docs/iterative-process-model-da.png" alt="Iteratives Vorgehensmodell des Projekts" width="1000">
+<img src="docs/iterative-process-model-da.png" alt="Iterative process model of the project" width="1000">
 
-| Schritt | Beschreibung |
+| Step | Description |
 | :----- | :----- |
-| **1. Anforderungen herauslesen** | Projektauftrag und Bewertungskriterien lesen und festhalten, was als Nächstes verlangt ist. |
-| **2. Planung** | Ziele, Reihenfolge und Zeitplan für den nächsten Durchlauf festlegen. |
-| **3. Arbeitspakete verteilen** | Aufgaben nach Kategorie festlegen und auf die drei Personen aufteilen. |
-| **4. Umsetzung im entsprechenden Branch** | Jede Person bearbeitet ihre Kategorie in einem eigenen Branch. |
-| **5. Brauchbarkeit prüfen** | Das Ergebnis wird gegen die Anforderungen geprüft, der Code getestet und die Resultate kontrolliert. |
-| **6. Entscheid** | Das Team entscheidet, ob der Branch gemerged oder überarbeitet wird. |
-| **7. Zusammenführen in main** | Der geprüfte Branch wird in `main` gemerged. |
-| **8. Stand im Team besprechen** | Kurze Besprechung zum aktuellen Stand und zu den nächsten Aufgaben. Danach beginnt der nächste Durchlauf. |
+| **1. Extract requirements** | Read the project assignment and grading criteria and note what is required next. |
+| **2. Planning** | Define goals, order and schedule for the next iteration. |
+| **3. Distribute work packages** | Define tasks by category and split them among the three people. |
+| **4. Implementation in the corresponding branch** | Each person works on their category in a separate branch. |
+| **5. Check usefulness** | The result is checked against the requirements, the code is tested and the results are reviewed. |
+| **6. Decision** | The team decides whether the branch is merged or reworked. |
+| **7. Merge into main** | The reviewed branch is merged into `main`. |
+| **8. Discuss status in the team** | Short meeting about the current status and the next tasks. Then the next iteration begins. |
 
-## VSC Struktur
+## Git Structure
 
 ### Branches
 
-Das Modul ist auf Englisch, deshalb sind Branches, Commit Messages und Code auf Englisch. Jeder Branch beginnt mit der **Kategorie** (erstes Wort, Kleinbuchstaben). Danach folgt mit Bindestrichen eine kurze **Erweiterung**, die beschreibt, woran in diesem Branch gearbeitet wird: `category-topic`.
+The module is held in English, therefore branches, commit messages, code and file names are in English. Every branch starts with the **category** (first word, lowercase). It is followed by a short **extension** joined with hyphens that describes what the branch is about: `category-topic`.
 
-| Kategorie (erstes Wort) | Bereich | Beispiele |
+| Category (first word) | Area | Examples |
 | :----- | :----- | :----- |
-| `readme` | README und Dokumentation | `readme-checklist`, `readme-conventions` |
-| `presentation` | Präsentation und Video | `presentation-concept-slides` |
-| `data` | Datenerhebung (API, Scraping) | `data-overpass`, `data-income` |
-| `geodata` | Geodaten und räumliche Zuordnung | `geodata-spatial-join` |
-| `database` | Datenbank (SQLite, PostgreSQL) | `database-sqlite`, `database-postgresql` |
-| `eda` | Explorative Datenanalyse | `eda-distributions`, `eda-correlations` |
-| `modeling` | Modellierung und Evaluation | `modeling-regression`, `modeling-poisson` |
-| `analysis` | Zusatzanalysen (Bonus) | `analysis-kmeans`, `analysis-anova` |
+| `readme` | README and documentation | `readme-checklist`, `readme-conventions` |
+| `presentation` | Presentation and video | `presentation-concept-slides` |
+| `data` | Data collection (API, scraping) | `data-overpass`, `data-income` |
+| `geodata` | Geodata and spatial assignment | `geodata-spatial-join` |
+| `database` | Database (SQLite, PostgreSQL) | `database-sqlite`, `database-postgresql` |
+| `eda` | Exploratory data analysis | `eda-distributions`, `eda-correlations` |
+| `modeling` | Modeling and evaluation | `modeling-regression`, `modeling-poisson` |
+| `analysis` | Additional analyses (bonus) | `analysis-kmeans`, `analysis-anova` |
 
-**Regeln**
+**Rules**
 
-- Das erste Wort ist immer die Kategorie, die Erweiterung beschreibt den Inhalt (`category-topic`).
-- Kleinbuchstaben, Wörter mit Bindestrich trennen, keine Umlaute, möglichst 1 bis 3 Wörter für die Erweiterung.
-- Ein Branch gehört zu genau einer Kategorie und einem klar abgegrenzten Thema.
-- Durch das iterative Vorgehen wird eine Kategorie mehrfach bearbeitet. Für jede neue Runde entsteht deshalb ein neuer Branch mit anderer Erweiterung (z. B. `eda-distributions`, später `eda-after-modeling`).
-- Nach dem Merge wird der Branch gelöscht.
+- The first word is always the category, the extension describes the content (`category-topic`).
+- Lowercase, separate words with hyphens, no umlauts, preferably 1 to 3 words for the extension.
+- A branch belongs to exactly one category and one clearly defined topic.
+- Because of the iterative process, a category is worked on several times. Each new round therefore gets a new branch with a different extension (e.g. `eda-distributions`, later `eda-after-modeling`).
+- The branch is deleted after the merge.
 
 > [!TIP]
-> Am Präfix sieht man in der Historie sofort, zu welchem Bereich eine Änderung gehört. Die Erweiterung zeigt, worum es genau ging. So bleiben Branches auch bei mehreren Iterationen eindeutig.
+> The prefix shows in the history at a glance which area a change belongs to. The extension shows what exactly it was about. This keeps branches unambiguous across several iterations.
 
 ### Commits
 
-Eine Commit Message hat das Format `type(scope): what was done` und ist auf Englisch.
+A commit message has the format `type(scope): what was done` and is written in English.
 
-- **type**: Art der Änderung (siehe Tabelle).
-- **scope**: Kategorie aus der Branch Konvention (`readme`, `presentation`, `data`, `geodata`, `database`, `eda`, `modeling`, `analysis`). Sie entspricht dem ersten Wort des Branches.
-- **Beschreibung**: kurz und konkret, im Past Tense, ohne Punkt am Ende.
+- **type**: kind of change (see table).
+- **scope**: category from the branch convention (`readme`, `presentation`, `data`, `geodata`, `database`, `eda`, `modeling`, `analysis`). It matches the first word of the branch.
+- **description**: short and concrete, in past tense, without a period at the end.
 
-| Type | Verwendung |
+| Type | Usage |
 | :----- | :----- |
-| `feat` | Neue Funktion, neuer Analyseschritt, neues Notebook |
-| `data` | Daten hinzugefügt oder aktualisiert |
-| `docs` | Dokumentation (README, Checkliste, Kommentare) |
-| `fix` | Fehler behoben |
-| `polish` | Verbessert, aufgeräumt, übersetzt oder umstrukturiert, ohne neue Funktion |
+| `feat` | New function, new analysis step, new notebook |
+| `data` | Data added or updated |
+| `docs` | Documentation (README, checklist, comments) |
+| `fix` | Bug fixed |
+| `polish` | Improved, cleaned up, translated or restructured, without a new function |
 
-Beispiele:
+Examples:
 
 ```
 feat(data): created Overpass query for vegan restaurants
@@ -138,84 +138,85 @@ docs(readme): updated branch and commit conventions
 fix(eda): corrected missing values in population
 ```
 
-Bei mehreren zusammengehörenden Änderungen werden die Details nach einem Doppelpunkt aufgezählt:
+For several related changes, the details are listed after a colon:
 
 ```
 feat(data): created Overpass query, saved raw data as JSON, added retry over two endpoints
 ```
 
-# Minimalanforderungen
+# Minimum Requirements
 
-Dieses Kapitel hält die technische Grundlage unserer Untersuchung fest. Es folgt dem Weg der Daten, von der Erhebung über die Aufbereitung und Speicherung bis zur Analyse und zum Modell. In der Arbeit entspricht es dem Teil «Material und Methoden». Jeder Abschnitt erklärt, was wir gemacht haben und warum, damit die Ergebnisse nachvollziehbar bleiben. 
+This chapter records the technical foundation of our investigation. It follows the path of the data, from collection through preparation and storage to analysis and model. In the paper it corresponds to the part "Materials and Methods". Each section explains what we did and why, so that the results remain traceable.
 
-## Datenerhebung
+## Data Collection
 
-> Beschreibung, wie die Daten selbst erhoben werden (Web Scraping und/oder Web API): welche Schnittstelle, welche Abfrage, welcher Umfang. Fertige Datensätze (z. B. von Kaggle) zählen nicht als primäre Quelle. Mit Referenz auf die relevanten Codestellen.
+> Description of how the data is collected by ourselves (web scraping and/or web API): which interface, which query, which scope. Ready-made datasets (e.g. from Kaggle) do not count as a primary source. With references to the relevant code locations.
 
-## Datenaufbereitung und Integration
+## Data Preparation and Integration
 
-Folgende zwei Datenquellen werden verwendet:
+The following two data sources are used:
 
-1. **OpenStreetMap** über die Overpass API (selbst erhobene Daten)
-2. **BFS Gemeindedaten** (Bundesamt für Statistik)
+1. **OpenStreetMap** via the Overpass API (self-collected data)
+2. **BFS municipality data** (Federal Statistical Office)
 
-## Datenspeicherung
+## Data Storage
 
-> Beschreibung der SQLite Datenbank (Tabellen, Schema, Beziehungen) und der SQL Abfragen aus Python. Mit Referenz auf die relevanten Codestellen.
+> Description of the SQLite database (tables, schema, relations) and of the SQL queries from Python. With references to the relevant code locations.
 
-## Explorative Datenanalyse
+## Exploratory Data Analysis
 
-> Beschreibung der nicht grafischen und grafischen EDA: Kennzahlen, Verteilungen, fehlende Werte, Zusammenhänge zwischen den Variablen und die wichtigsten Diagramme. Jede Grafik wird beschriftet und mit Quelle versehen.
+> Description of the non-graphical and graphical EDA: key figures, distributions, missing values, relationships between the variables and the most important plots. Every figure is labeled and given a source.
 
-## Modellierung und Evaluation
+## Modeling and Evaluation
 
-> Beschreibung der Zielvariable, der erklärenden Variablen und des gewählten Modells (Regression oder Klassifikation) samt Begründung. Evaluation mit geeigneten Gütemassen (z. B. R², RMSE, Accuracy, Precision, Recall) und korrekte Interpretation der Resultate. Erklärung, wie die Forschungsfrage über eine reine Vorhersage hinausgeht.
+> Description of the target variable, the explanatory variables and the chosen model (regression or classification) including the reasoning. Evaluation with suitable metrics (e.g. R², RMSE, accuracy, precision, recall) and correct interpretation of the results. Explanation of how the research question goes beyond pure prediction.
 
-# Zusatzanforderungen
+# Additional Requirements
 
-Mit den Zusatzanforderungen sind zusätzliche Punkte möglich. Pro Zusatzanforderung wird dokumentiert, wie sie umgesetzt wurde.
+The additional requirements make extra points possible. For each additional requirement, we document how it was implemented.
 
-## Kreativität der Umsetzung
+## Creativity of the Implementation
 
-> Beschreibung dessen, was über die Inhalte der Lektionen und Übungen hinausgeht (z. B. eigene Datenquellen, besondere Analysen oder Visualisierungen).
+> Description of what goes beyond the content of the lectures and exercises (e.g. own data sources, special analyses or visualizations).
 
-## PostgreSQL Datenbank
+## PostgreSQL Database
 
-> Beschreibung des Einsatzes einer PostgreSQL oder ähnlichen Datenbank (keine SQLite) mit SQL Joins und Aggregationen aus Python. Mit Referenz auf die relevanten Codestellen.
+> Description of the use of a PostgreSQL or similar database (not SQLite) with SQL joins and aggregations from Python. With references to the relevant code locations.
 
-## Geografische Daten
+## Geographic Data
 
-> Beschreibung, welche geografischen Daten integriert und wie sie visualisiert wurden (z. B. Karte der Dichte pro Gemeinde).
+> Description of which geographic data was integrated and how it was visualized (e.g. map of the density per municipality).
 
-## Statistische Tests (Chi Quadrat, ANOVA, Korrelation)
+## Statistical Tests (Chi-Square, ANOVA, Correlation)
 
-> Beschreibung des eingesetzten Tests (Chi² Test, ANOVA oder Korrelationsanalyse), der Fragestellung dahinter und des Resultats. Jeder Test muss einen p Wert enthalten.
+> Description of the test used (chi-square test, ANOVA or correlation analysis), the question behind it and the result. Every test must include a p-value.
 
 ## k-Means Clustering
 
-> Beschreibung des Clusterings zusätzlich zum Regressions oder Klassifikationsmodell: verwendete Merkmale, Anzahl Cluster, Interpretation der Cluster.
+> Description of the clustering in addition to the regression or classification model: features used, number of clusters, interpretation of the clusters.
 
 ## GitHub Repository
 
-> Link zum öffentlichen GitHub Repository mit dem Code. Die URL muss auch in der Präsentation angegeben werden.
+> Link to the public GitHub repository with the code: https://github.com/simicjasna/vegane-restaurants-ch. The URL must also be given in the presentation.
 
-# Resultate und Diskussion
+# Results and Discussion
 
-> Darstellung der Resultate der Datenintegration, der EDA und der Modelle samt Interpretation der Gütemasse. In der Diskussion werden die Resultate eingeordnet: Bezug zur Forschungsfrage und zu den erwarteten Ergebnissen sowie Grenzen der Analyse.
+> Presentation of the results of the data integration, the EDA and the models including interpretation of the metrics. In the discussion the results are put into context: relation to the research question and to the expected results as well as limitations of the analysis.
 
-# Schlussfolgerungen
+# Conclusions
 
-> Beantwortung der Forschungsfrage in wenigen Sätzen, Fazit des Projekts und mögliche nächste Schritte.
+> Answer to the research question in a few sentences, conclusion of the project and possible next steps.
 
-# Einsatz von KI
+# Use of AI
 
-> Reflexion der KI Nutzung bei Code und Präsentation: welche Tools für welche Aufgaben eingesetzt wurden, welche Vor- und Nachteile gefunden wurden und wo es mit KI Hilfe nicht funktioniert hat.
+> Reflection on the use of AI for code and presentation: which tools were used for which tasks, which advantages and disadvantages were found, and where it did not work with the help of AI.
 
-# Anhang
+# Appendix
 
-## Quellenverzeichnis
+## References
 
-| Quelle | Verwendung | Link |
+| Source | Usage | Link |
 | :----- | :----- | :----- |
-| OpenStreetMap (Overpass API) | Vegane Restaurants | https://www.openstreetmap.org |
-| Bundesamt für Statistik (BFS) | Gemeindedaten | https://www.bfs.admin.ch |
+| OpenStreetMap (Overpass API) | Vegan restaurants | https://www.openstreetmap.org |
+| Federal Statistical Office (BFS) | Municipality data, municipality directory | https://www.bfs.admin.ch |
+| swisstopo (swissBOUNDARIES3D) | Municipality boundaries and population | https://www.swisstopo.admin.ch/en/landscape-model-swissboundaries3d |
