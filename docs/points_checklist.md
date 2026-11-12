@@ -10,8 +10,8 @@ Status: `offen` / `in Arbeit` / `erledigt`
 | Nr. | Anforderung | Unser Plan | Beleg | Status |
 |---|---|---|---|---|
 | M1 | Data-Analytics-Projekt mit Modulinhalten | Gesamtes Projekt | - | offen |
-| M2 | Eigene Datenerhebung per Web-API/Scraping (kein fertiger Hauptdatensatz) | OpenStreetMap über die Overpass API | `notebooks/01_vegane_restaurants_overpass.ipynb`, `data/raw/vegan_restaurants_ch_raw.json` (709 Einträge, Abruf 10.11.2026) | erledigt |
-| M3 | Mindestens zwei Quellen, Integrationsschritt dokumentiert (Schlüssel, Joins, Inkonsistenzen, verlorene/gewonnene Datensätze) | OSM-Restaurants + BFS-Gemeindedaten (+ swisstopo-Grenzen); Anzahl Datensätze vor und nach jedem Join festhalten | `notebooks/02_gemeinden_und_zuordnung.ipynb`, `data/processed/integration_log.csv` (BFS-Merkmale Alter und Einkommen fehlen noch) | in Arbeit |
+| M2 | Eigene Datenerhebung per Web-API/Scraping (kein fertiger Hauptdatensatz) | OpenStreetMap über die Overpass API | `notebooks/01_vegan_restaurants_overpass.ipynb`, `data/raw/vegan_restaurants_ch_raw.json` (709 Einträge, Abruf 10.11.2026) | erledigt |
+| M3 | Mindestens zwei Quellen, Integrationsschritt dokumentiert (Schlüssel, Joins, Inkonsistenzen, verlorene/gewonnene Datensätze) | OSM-Restaurants + BFS-Gemeindedaten (+ swisstopo-Grenzen); Anzahl Datensätze vor und nach jedem Join festhalten | `notebooks/02_municipalities_and_assignment.ipynb`, `data/processed/integration_log.csv` (BFS-Merkmale Alter und Einkommen fehlen noch) | in Arbeit |
 | M4 | SQLite-Datenbank mit SQL-Abfragen aus Python | Tabellen `restaurants`, `municipalities`, verknüpfte Sicht | `data/processed/vegan_project.db`, SQL-Join in Notebook 02, Abschnitt 5 | in Arbeit |
 | M5 | Umfangreiche nicht-grafische und grafische EDA | Kennzahlen, Verteilungen, fehlende Werte, Korrelationen, Karten | - | offen |
 | M6 | Regression oder Klassifikation, Forschungsfrage über reine Vorhersage hinaus | Regression auf die Dichte pro 1000 Einwohner; Vergleich Stadt und Land | - | offen |
@@ -26,7 +26,7 @@ Status: `offen` / `in Arbeit` / `erledigt`
 |---|---|---|---|---|
 | B1 | Kreativität (über Vorlesungen und Übungen hinaus) | Zählmodelle (Poisson / negative Binomial mit log-Einwohner als Offset) neben OLS; getrennte Analyse «rein vegan» und «mit veganem Angebot»; Vergleich Stadt und Land | - | offen |
 | B2 | PostgreSQL (oder ähnlich, nicht SQLite) mit Joins und Aggregationen aus Python | Dieselben Tabellen in PostgreSQL laden (Docker, siehe Kursmaterial), Joins und Aggregationen über Python | - | offen |
-| B3 | Geodaten integriert und visualisiert | Räumlicher Join Restaurants zu Gemeinden, Choroplethenkarte der Dichte, Punktkarte | Notebook 02 (räumlicher Join, Karten), `figures/karte_dichte_uebersicht.png` | in Arbeit |
+| B3 | Geodaten integriert und visualisiert | Räumlicher Join Restaurants zu Gemeinden, Choroplethenkarte der Dichte, Punktkarte | Notebook 02 (räumlicher Join, Karten), `figures/map_density_overview.png` | in Arbeit |
 | B4 | Chi-Quadrat-Test, ANOVA oder Korrelation (jeweils mit p-Wert) | ANOVA: Dichte nach Gemeindetyp; Chi-Quadrat: Gemeindetyp x «hat vegane Restaurants»; Spearman-Korrelation: Dichte gegen Merkmale | - | offen |
 | B5 | k-Means zusätzlich zu Regression/Klassifikation | Gemeinden nach sozioökonomischen Merkmalen gruppieren, Dichte je Cluster vergleichen, k über Silhouette-Wert wählen | - | offen |
 | B6 | Code in öffentlichem GitHub-Repository, URL in der Präsentation | https://github.com/simicjasna/vegane-restaurants-ch | Repository | erledigt |
