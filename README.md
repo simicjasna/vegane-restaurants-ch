@@ -87,25 +87,25 @@ Wir arbeiten als Team zu dritt nach einem iterativen Vorgehensmodell, das die ge
 
 ### Branches
 
-Jeder Branch beginnt mit der **Kategorie** (erstes Wort, Kleinbuchstaben, ohne Umlaute). Danach folgt mit Bindestrichen eine kurze **Erweiterung**, die beschreibt, woran in diesem Branch gearbeitet wird: `kategorie-thema`.
+Das Modul ist auf Englisch, deshalb sind Branches, Commit Messages und Code auf Englisch. Jeder Branch beginnt mit der **Kategorie** (erstes Wort, Kleinbuchstaben). Danach folgt mit Bindestrichen eine kurze **Erweiterung**, die beschreibt, woran in diesem Branch gearbeitet wird: `category-topic`.
 
 | Kategorie (erstes Wort) | Bereich | Beispiele |
 | :----- | :----- | :----- |
-| `readme` | README und Dokumentation | `readme-checkliste`, `readme-branch-konvention` |
-| `presentation` | Präsentation und Video | `presentation-konzeptfolien` |
-| `datenerhebung` | Datenerhebung (API, Scraping) | `datenerhebung-overpass`, `datenerhebung-einkommen` |
-| `geodaten` | Geodaten und räumliche Zuordnung | `geodaten-raeumlicher-join` |
-| `datenbank` | Datenbank (SQLite, PostgreSQL) | `datenbank-sqlite`, `datenbank-postgresql` |
-| `eda` | Explorative Datenanalyse | `eda-verteilungen`, `eda-korrelationen` |
-| `modellierung` | Modellierung und Evaluation | `modellierung-regression`, `modellierung-poisson` |
-| `zusatzanalysen` | Zusatzanalysen (Bonus) | `zusatzanalysen-kmeans`, `zusatzanalysen-anova` |
+| `readme` | README und Dokumentation | `readme-checklist`, `readme-conventions` |
+| `presentation` | Präsentation und Video | `presentation-concept-slides` |
+| `data` | Datenerhebung (API, Scraping) | `data-overpass`, `data-income` |
+| `geodata` | Geodaten und räumliche Zuordnung | `geodata-spatial-join` |
+| `database` | Datenbank (SQLite, PostgreSQL) | `database-sqlite`, `database-postgresql` |
+| `eda` | Explorative Datenanalyse | `eda-distributions`, `eda-correlations` |
+| `modeling` | Modellierung und Evaluation | `modeling-regression`, `modeling-poisson` |
+| `analysis` | Zusatzanalysen (Bonus) | `analysis-kmeans`, `analysis-anova` |
 
 **Regeln**
 
-- Das erste Wort ist immer die Kategorie, die Erweiterung beschreibt den Inhalt (`kategorie-thema`).
+- Das erste Wort ist immer die Kategorie, die Erweiterung beschreibt den Inhalt (`category-topic`).
 - Kleinbuchstaben, Wörter mit Bindestrich trennen, keine Umlaute, möglichst 1 bis 3 Wörter für die Erweiterung.
 - Ein Branch gehört zu genau einer Kategorie und einem klar abgegrenzten Thema.
-- Durch das iterative Vorgehen wird eine Kategorie mehrfach bearbeitet. Für jede neue Runde entsteht deshalb ein neuer Branch mit anderer Erweiterung (z. B. `eda-verteilungen`, später `eda-nach-modellierung`).
+- Durch das iterative Vorgehen wird eine Kategorie mehrfach bearbeitet. Für jede neue Runde entsteht deshalb ein neuer Branch mit anderer Erweiterung (z. B. `eda-distributions`, später `eda-after-modeling`).
 - Nach dem Merge wird der Branch gelöscht.
 
 > [!TIP]
@@ -113,35 +113,35 @@ Jeder Branch beginnt mit der **Kategorie** (erstes Wort, Kleinbuchstaben, ohne U
 
 ### Commits
 
-Eine Commit Message hat das Format `typ(bereich): was gemacht wurde`.
+Eine Commit Message hat das Format `type(scope): what was done` und ist auf Englisch.
 
-- **typ**: Art der Änderung (siehe Tabelle).
-- **bereich**: Kategorie aus der Branch Konvention (`readme`, `presentation`, `datenerhebung`, `geodaten`, `datenbank`, `eda`, `modellierung`, `zusatzanalysen`). Sie entspricht dem ersten Wort des Branches.
-- **Beschreibung**: Deutsch, kurz und konkret, sagt was gemacht wurde (Vergangenheit), ohne Punkt am Ende.
+- **type**: Art der Änderung (siehe Tabelle).
+- **scope**: Kategorie aus der Branch Konvention (`readme`, `presentation`, `data`, `geodata`, `database`, `eda`, `modeling`, `analysis`). Sie entspricht dem ersten Wort des Branches.
+- **Beschreibung**: kurz und konkret, im Past Tense, ohne Punkt am Ende.
 
-| Typ | Verwendung |
+| Type | Verwendung |
 | :----- | :----- |
-| `neu` | Neue Funktion, neuer Analyseschritt, neues Notebook |
-| `daten` | Daten hinzugefügt oder aktualisiert |
-| `dok` | Dokumentation (README, Checkliste, Kommentare) |
+| `feat` | Neue Funktion, neuer Analyseschritt, neues Notebook |
+| `data` | Daten hinzugefügt oder aktualisiert |
+| `docs` | Dokumentation (README, Checkliste, Kommentare) |
 | `fix` | Fehler behoben |
-| `optim` | Verbessert, aufgeräumt oder umstrukturiert, ohne neue Funktion |
+| `polish` | Verbessert, aufgeräumt, übersetzt oder umstrukturiert, ohne neue Funktion |
 
 Beispiele:
 
 ```
-neu(datenerhebung): Overpass Abfrage für vegane Restaurants erstellt
-daten(geodaten): Gemeindegrenzen swissBOUNDARIES3D und BFS Verzeichnis ergänzt
-neu(geodaten): Räumliche Zuordnung der Restaurants zu Gemeinden umgesetzt
-neu(datenbank): SQLite Datenbank mit Tabellen restaurants und municipalities angelegt
-dok(readme): Branch und Commit Konvention angepasst
-fix(eda): Fehlende Werte bei Einwohnerzahl korrigiert
+feat(data): created Overpass query for vegan restaurants
+data(geodata): added municipality boundaries and BFS directory
+feat(geodata): assigned restaurants to municipalities with a spatial join
+feat(database): created SQLite database with restaurants and municipalities
+docs(readme): updated branch and commit conventions
+fix(eda): corrected missing values in population
 ```
 
 Bei mehreren zusammengehörenden Änderungen werden die Details nach einem Doppelpunkt aufgezählt:
 
 ```
-neu(datenerhebung): Overpass Abfrage erstellt, Rohdaten als JSON gespeichert, Retry über zwei Endpunkte ergänzt
+feat(data): created Overpass query, saved raw data as JSON, added retry over two endpoints
 ```
 
 # Minimalanforderungen
