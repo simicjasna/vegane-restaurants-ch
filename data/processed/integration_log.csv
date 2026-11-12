@@ -1,14 +1,14 @@
-schritt,beschreibung,anzahl
-1,Hoheitsgebiete in swissBOUNDARIES3D (roh),2136
-1,"davon Gemeindegebiete der Schweiz (ICC = CH, OBJEKTART = 0)",2110
-2,aktuelle Gemeinden im BFS-Gemeindeverzeichnis,2110
-2,"BFS-Nummern in Grenzdatei, aber nicht im Verzeichnis",0
-2,"BFS-Nummern im Verzeichnis, aber nicht in Grenzdatei",0
-3,Restaurants aus OpenStreetMap,709
-3,Restaurants einer Gemeinde zugeordnet,709
-3,Restaurants ohne Gemeinde (z. B. im See oder ausserhalb der Schweiz),0
-3,"doppelt zugeordnete Restaurants (Prüfung, soll 0 sein)",0
-4,Gemeinden mit mindestens einem Restaurant,158
-4,Gemeinden ohne Restaurant,1952
-4,Restaurants total in der Gemeindetabelle (Kontrolle),709
-5,Restaurants mit Gemeinde in SQLite (Kontrolle per SQL),709
+step,description,n_records
+1,Territories in swissBOUNDARIES3D (raw),2136
+1,"of which municipal territories of Switzerland (ICC = CH, OBJEKTART = 0)",2110
+2,Current municipalities in the BFS municipality directory,2110
+2,BFS numbers in boundary file but not in directory,0
+2,BFS numbers in directory but not in boundary file,0
+3,Restaurants from OpenStreetMap,712
+3,Restaurants assigned to a municipality,712
+3,Restaurants without municipality (e.g. in a lake or outside Switzerland),0
+3,"Restaurants assigned twice (check, should be 0)",0
+4,Municipalities with at least one restaurant,158
+4,Municipalities without a restaurant,1952
+4,Total restaurants in the municipality table (check),712
+5,Restaurants with municipality in SQLite (check via SQL),712
