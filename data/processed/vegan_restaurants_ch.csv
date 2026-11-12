@@ -113,6 +113,7 @@ node,1291638554,47.3545465,8.5519563,Yu Long Restaurant & Take-Away,fast_food,ch
 node,1300473542,47.3979742,8.4509657,Kusang's Tibetan Kitchen,restaurant,,yes,8952,,False,vegan_option
 node,1306404370,46.0906936,7.0644777,Café National,restaurant,,yes,,,False,vegan_option
 node,1336438220,46.9484571,7.4553687,Verdi,restaurant,italian,yes,,,False,vegan_option
+node,1348523756,47.2067438,7.5376825,Kreuz,restaurant,international,yes,,,False,vegan_option
 node,1351224757,47.0482946,8.3093839,Daily Pizza,fast_food,pizza,yes,6003,Luzern,False,vegan_option
 node,1355269805,47.2257018,8.8153539,10' dieci,restaurant,pizza;italian,yes,8640,Rapperswil SG,False,vegan_option
 node,1357687231,47.3843493,8.5739787,Pantanal,restaurant,,yes,,,False,vegan_option
@@ -474,6 +475,7 @@ node,8060373211,46.4683242,6.8456264,Bistrot des Cèdres,restaurant,lebanese;swi
 node,8060373608,47.5460436,7.5865808,Union Diner | Meret Oppenheim,restaurant,,yes,4053,Basel,False,vegan_option
 node,8121815739,46.9678333,8.3560215,Swisstasty,restaurant,burger,yes,,,False,vegan_option
 node,8126152481,46.5276258,6.5726699,La Café De Chavannes,cafe,,yes,1022,Chavannes-près-Renens,False,vegan_option
+node,8189862694,47.2053584,7.5370811,BioKulturOase Smaragd,cafe,,yes,,,False,vegan_option
 node,8199027204,47.5181922,8.7200889,Hans im Glück,restaurant,burger,yes,8400,Winterthur,False,vegan_option
 node,8296723194,46.8567127,8.6448206,54 Hochgenuss,restaurant,international;regional,yes,,,False,vegan_option
 node,8343288848,46.4639035,6.8451498,Vecchia Napoli,restaurant,pizza,yes,,,False,vegan_option
@@ -655,6 +657,7 @@ node,14288740777,46.5919793,9.5985626,La Nars,restaurant,,yes,7460,Savognin,Fals
 node,14291014339,46.9486432,7.4073795,Blue Sky,restaurant,pizza;pasta;breakfast,yes,3008,Bern,False,vegan_option
 node,14340508374,47.4501876,8.5627275,Roots,fast_food,,only,,,True,vegan_only
 node,14352555819,47.5663888,7.5923825,The Siam Delicious,restaurant,thai,yes,,,False,vegan_option
+node,14364828644,47.195354,7.5825207,Bloomell Coffeehouse,cafe,,yes,4552,Derendingen,False,vegan_option
 way,28806565,47.4439817,8.2293672,Cockpit,restaurant,,yes,,,False,vegan_option
 way,41016083,47.2496015,9.3442906,Berggasthaus Alter Säntis,restaurant,,yes,9107,Urnäsch,False,vegan_option
 way,46785816,46.5164319,6.6380875,Obeirut,restaurant,,yes,,Lausanne,False,vegan_option
