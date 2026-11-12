@@ -10,14 +10,14 @@ Status: `offen` / `in Arbeit` / `erledigt`
 | Nr. | Anforderung | Unser Plan | Beleg | Status |
 |---|---|---|---|---|
 | M1 | Data-Analytics-Projekt mit Modulinhalten | Gesamtes Projekt | - | offen |
-| M2 | Eigene Datenerhebung per Web-API/Scraping (kein fertiger Hauptdatensatz) | OpenStreetMap über die Overpass API | `notebooks/01_vegan_restaurants_overpass.ipynb`, `data/raw/vegan_restaurants_ch_raw.json` (709 Einträge, Abruf 10.11.2026) | erledigt |
+| M2 | Eigene Datenerhebung per Web-API/Scraping (kein fertiger Hauptdatensatz) | OpenStreetMap über die Overpass API | `notebooks/01_vegan_restaurants_overpass.ipynb`, `data/raw/vegan_restaurants_ch_raw.json` (712 Einträge, Abruf 12.11.2026) | erledigt |
 | M3 | Mindestens zwei Quellen, Integrationsschritt dokumentiert (Schlüssel, Joins, Inkonsistenzen, verlorene/gewonnene Datensätze) | OSM-Restaurants + BFS-Gemeindedaten (+ swisstopo-Grenzen); Anzahl Datensätze vor und nach jedem Join festhalten | `notebooks/02_municipalities_and_assignment.ipynb`, `data/processed/integration_log.csv` (BFS-Merkmale Alter und Einkommen fehlen noch) | in Arbeit |
 | M4 | SQLite-Datenbank mit SQL-Abfragen aus Python | Tabellen `restaurants`, `municipalities`, verknüpfte Sicht | `data/processed/vegan_project.db`, SQL-Join in Notebook 02, Abschnitt 5 | in Arbeit |
 | M5 | Umfangreiche nicht-grafische und grafische EDA | Kennzahlen, Verteilungen, fehlende Werte, Korrelationen, Karten | - | offen |
 | M6 | Regression oder Klassifikation, Forschungsfrage über reine Vorhersage hinaus | Regression auf die Dichte pro 1000 Einwohner; Vergleich Stadt und Land | - | offen |
 | M7 | Modellevaluation mit geeigneten Gütemassen | R², adjustiertes R², RMSE, Residuenanalyse, Train/Test oder Kreuzvalidierung | - | offen |
 | M8 | Korrekte Interpretation der Resultate und Gütemasse | Schriftliche Interpretation je Modell, Grenzen (Vollständigkeit von OSM, Ersatzwert für Studierende) | - | offen |
-| M9 | KI-Nutzung dokumentiert (Vor-/Nachteile, wo es nicht funktioniert hat) | `docs/ai_usage_log.md`, laufend ergänzt | `docs/ai_usage_log.md` | in Arbeit |
+| M9 | KI-Nutzung dokumentiert (Vor-/Nachteile, wo es nicht funktioniert hat) | Kapitel «Einsatz von KI» im README, laufend ergänzt (Notizen unten) | README, Kapitel «Einsatz von KI» | in Arbeit |
 | M10 | Material (Daten, Notebooks) auf Moodle | `materials_group_31.zip` | - | offen |
 
 ## Zusatzpunkte (max. 6 Punkte)
@@ -46,11 +46,12 @@ Status: `offen` / `in Arbeit` / `erledigt`
 
 Frist: 10. Januar 2027, 23:59 Uhr (in Moodle steht an einer Stelle «11. Januar 2026», das ist ein Tippfehler).
 
-## Nächste Schritte (Stand 10.11.2026)
+## Nächste Schritte (Stand 12.11.2026)
 
-- [x] Restaurantdaten per Overpass API erhoben (709 Einträge) und in SQLite gespeichert
+- [x] Restaurantdaten per Overpass API erhoben (712 Einträge) und in SQLite gespeichert
 - [x] Gemeindegrenzen und Einwohnerzahlen (swisstopo) eingebunden, Gemeindestand mit BFS-Verzeichnis abgeglichen (2110 Gemeinden, 0 Abweichungen)
-- [x] Räumlicher Join: 709 von 709 Restaurants einer Gemeinde zugeordnet, erste Karte erstellt
+- [x] Räumlicher Join: 712 von 712 Restaurants einer Gemeinde zugeordnet, erste Karte erstellt
+- [x] Code, Dateien, Branches und Commits auf Englisch umgestellt (Konvention im README)
 - [ ] Erklärvariablen selbst beschaffen (möglichst per Code/API, Quelle und Abrufdatum dokumentieren): Alter (Anteil 20-29 Jahre), Einkommen, Stadt/Land-Typologie
 - [ ] Quellen im README dokumentieren: Name, Link, Abrufdatum, Bezug (API oder Download), verwendete Spalten
 - [ ] Abrufdatum und OSM-Datenstand (`osm3s`) in Notebook 01 ausgeben
@@ -63,5 +64,5 @@ Frist: 10. Januar 2027, 23:59 Uhr (in Moodle steht an einer Stelle «11. Januar 
 Die Datei `docs/ai_usage_log.md` gibt es im aktuellen `main` nicht mehr, das Kapitel steht im README. Diese Einträge gehören dort hinein:
 
 - 25.10.2026, Claude: Projektidee bewertet und Notebook für die Overpass-Abfrage entworfen. Nicht funktioniert: Das Notebook konnte nicht direkt getestet werden, es musste im eigenen Python ausgeführt werden.
-- 10.11.2026, Claude: Notebook 02 geschrieben (Gemeindegrenzen laden, Gemeindestand abgleichen, räumlicher Join, SQLite, erste Karte). Funktioniert: Join und Abgleich liefen im ersten Versuch (709 von 709 Restaurants zugeordnet). Nicht funktioniert: Einige Links zu Datenquellen waren falsch (Datensätze galten nur für Wallis bzw. Freiburg) und mussten im Browser geprüft werden.
-
+- 10.11.2026, Claude: Notebook 02 geschrieben (Gemeindegrenzen laden, Gemeindestand abgleichen, räumlicher Join, SQLite, erste Karte). Funktioniert: Join und Abgleich liefen im ersten Versuch (709 von 709 Restaurants zugeordnet, nach erneutem Abruf 712 von 712). Nicht funktioniert: Einige Links zu Datenquellen waren falsch (Datensätze galten nur für Wallis bzw. Freiburg) und mussten im Browser geprüft werden.
+- 12.11.2026, Claude: Notebooks, Spalten- und Dateinamen auf Englisch umgestellt, Notebook 02 neu ausgeführt. Nicht funktioniert: Die SQLite-Datei liess sich im verbundenen Ordner nicht beschreiben («disk I/O error»), deshalb wurde das Notebook in einer Kopie ausgeführt und die Ergebnisse zurückkopiert. Beim Umbenennen fehlte ausserdem das `git rm` der alten Dateien, was erst bei der Kontrolle auffiel.

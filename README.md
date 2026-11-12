@@ -1,6 +1,6 @@
 # Dichte veganer Restaurants in Schweizer Gemeinden
 
-<img src="docs/titelbild.png" alt="Karte der Schweiz mit veganen Restaurants und Ausschnitt einer Gemeinde" width="80%">
+<img src="docs/title-image.png" alt="Karte der Schweiz mit veganen Restaurants und Ausschnitt einer Gemeinde" width="80%">
 
 Projekt im Modul **Data Analytics** (Bachelor Wirtschaftsinformatik, ZHAW).
 
@@ -70,7 +70,7 @@ Die folgenden Annahmen gelten vor der Analyse und betreffen die Merkmale, die wi
 
 Wir arbeiten als Team zu dritt nach einem iterativen Vorgehensmodell, das die gesamte Zusammenarbeit abdeckt. Die Arbeitspakete werden pro Kategorie verteilt und jeweils im entsprechenden Branch umgesetzt. Nach der Besprechung im Team beginnt ein neuer Durchlauf.
 
-<img src="docs/iteratives-vorgehensmodell-da.png" alt="Iteratives Vorgehensmodell des Projekts" width="1000">
+<img src="docs/iterative-process-model-da.png" alt="Iteratives Vorgehensmodell des Projekts" width="1000">
 
 | Schritt | Beschreibung |
 | :----- | :----- |
