@@ -89,23 +89,22 @@ We work as a team of three following an iterative process model that covers the 
 
 The module is held in English, therefore branches, commit messages, code and file names are in English. Every branch starts with the **category** (first word, lowercase). It is followed by a short **extension** joined with hyphens that describes what the branch is about: `category-topic`.
 
-| Category (first word) | Area | Examples |
+| Category (first word) | Area | Planned branches |
 | :----- | :----- | :----- |
-| `readme` | README and documentation | `readme-checklist`, `readme-conventions` |
-| `presentation` | Presentation and video | `presentation-concept-slides` |
-| `data` | Data collection (API, scraping) | `data-overpass`, `data-income` |
-| `geodata` | Geodata and spatial assignment | `geodata-spatial-join` |
-| `database` | Database (SQLite, PostgreSQL) | `database-sqlite`, `database-postgresql` |
-| `eda` | Exploratory data analysis | `eda-distributions`, `eda-correlations` |
-| `modeling` | Modeling and evaluation | `modeling-regression`, `modeling-poisson` |
-| `analysis` | Additional analyses (bonus) | `analysis-kmeans`, `analysis-anova` |
+| `readme` | README and documentation | `readme-introduction`, `readme-project-management`, `readme-minimum-requirements`, `readme-additional-requirements`, `readme-results-and-discussion`, `readme-conclusions`, `readme-use-of-ai`, `readme-appendix` |
+| `presentation` | Presentation and video | `presentation-concept`, `presentation-final`, `presentation-video` |
+| `data` | Data collection, preparation and integration (API, scraping, spatial join) | `data-overpass`, `data-bfs`, `data-cleaning`, `data-integration`, `data-boundaries`, `data-spatial-join` |
+| `database` | Database (SQLite, PostgreSQL) | `database-sqlite`, `database-queries`, `database-postgresql` |
+| `eda` | Exploratory data analysis, including maps | `eda-distributions`, `eda-correlations`, `eda-maps` |
+| `modeling` | Modeling and evaluation | `modeling-regression`, `modeling-evaluation` |
+| `analysis` | Additional analyses (bonus) | `analysis-chi-square`, `analysis-anova`, `analysis-correlation`, `analysis-kmeans`, `analysis-creativity` |
 
 **Rules**
 
 - The first word is always the category, the extension describes the content (`category-topic`).
 - Lowercase, separate words with hyphens, no umlauts, preferably 1 to 3 words for the extension.
 - A branch belongs to exactly one category and one clearly defined topic.
-- Because of the iterative process, a category is worked on several times. Each new round therefore gets a new branch with a different extension (e.g. `eda-distributions`, later `eda-after-modeling`).
+- Because of the iterative process, a category is worked on several times. Each new round therefore gets a new branch with a different extension (e.g. `eda-distributions`, later `eda-distributions-2`).
 - The branch is deleted after the merge.
 
 > [!TIP]
@@ -116,14 +115,13 @@ The module is held in English, therefore branches, commit messages, code and fil
 A commit message has the format `type(scope): what was done` and is written in English.
 
 - **type**: kind of change (see table).
-- **scope**: category from the branch convention (`readme`, `presentation`, `data`, `geodata`, `database`, `eda`, `modeling`, `analysis`). It matches the first word of the branch.
+- **scope**: category from the branch convention (`readme`, `presentation`, `data`, `database`, `eda`, `modeling`, `analysis`). It matches the first word of the branch.
 - **description**: short and concrete, in past tense, without a period at the end.
 
 | Type | Usage |
 | :----- | :----- |
-| `feat` | New function, new analysis step, new notebook |
-| `data` | Data added or updated |
-| `docs` | Documentation (README, checklist, comments) |
+| `feat` | New function, new analysis step, new notebook, data added or updated |
+| `docs` | Documentation (README, comments) |
 | `fix` | Bug fixed |
 | `polish` | Improved, cleaned up, translated or restructured, without a new function |
 
@@ -131,11 +129,15 @@ Examples:
 
 ```
 feat(data): created Overpass query for vegan restaurants
-data(geodata): added municipality boundaries and BFS directory
-feat(geodata): assigned restaurants to municipalities with a spatial join
+feat(data): added municipality boundaries and BFS directory
+feat(data): assigned restaurants to municipalities with a spatial join
 feat(database): created SQLite database with restaurants and municipalities
+feat(eda): created histogram of the density
+feat(modeling): evaluated regression model with R² and RMSE
+feat(analysis): added k-means clustering of the municipalities
 docs(readme): updated branch and commit conventions
 fix(eda): corrected missing values in population
+polish(presentation): restructured slides
 ```
 
 For several related changes, the details are listed after a colon:
