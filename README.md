@@ -89,15 +89,17 @@ We work as a team of three following an iterative process model that covers the 
 
 The module is held in English, therefore branches, commit messages, code and file names are in English. Every branch starts with the **category** (first word, lowercase). It is followed by a short **extension** joined with hyphens that describes what the branch is about: `category-topic`.
 
-| Category (first word) | Area | Planned branches |
+| Category (first word) | Area | Examples |
 | :----- | :----- | :----- |
-| `readme` | README and documentation | `readme-introduction`, `readme-project-management`, `readme-minimum-requirements`, `readme-additional-requirements`, `readme-results-and-discussion`, `readme-conclusions`, `readme-use-of-ai`, `readme-appendix` |
-| `presentation` | Presentation and video | `presentation-concept`, `presentation-final`, `presentation-video` |
-| `data` | Data collection, preparation and integration (API, scraping, spatial join) | `data-overpass`, `data-bfs`, `data-cleaning`, `data-integration`, `data-boundaries`, `data-spatial-join` |
-| `database` | Database (SQLite, PostgreSQL) | `database-sqlite`, `database-queries`, `database-postgresql` |
-| `eda` | Exploratory data analysis, including maps | `eda-distributions`, `eda-correlations`, `eda-maps` |
+| `readme` | README and documentation | `readme-introduction`, `readme-use-of-ai` |
+| `presentation` | Presentation and video | `presentation-concept`, `presentation-video` |
+| `data` | Data collection, preparation and integration (API, scraping, spatial join) | `data-overpass`, `data-spatial-join` |
+| `database` | Database (SQLite, PostgreSQL) | `database-sqlite`, `database-postgresql` |
+| `eda` | Exploratory data analysis, including maps | `eda-distributions`, `eda-maps` |
 | `modeling` | Modeling and evaluation | `modeling-regression`, `modeling-evaluation` |
-| `analysis` | Additional analyses (bonus) | `analysis-chi-square`, `analysis-anova`, `analysis-correlation`, `analysis-kmeans`, `analysis-creativity` |
+| `analysis` | Additional analyses (bonus) | `analysis-anova`, `analysis-kmeans` |
+
+The examples only illustrate the scheme. The extension is chosen freely when a branch is created and is not fixed in advance.
 
 **Rules**
 
